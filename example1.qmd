@@ -1,0 +1,387 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    menu: false
+    controls: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: false
+    toc: false
+    center: true
+    slide-number: false
+    preview-links: false
+    output-file: "slides"
+    theme:
+        - simple
+        - style/style_background.scss
+filters:
+  - pyodide
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Del experimento al conocimiento]{style="font-size: 20px; margin: 0px;"} <br>
+[Usando Python para explorar nuevas ideas]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, 02 abril 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## ¿Quién soy?
+::: columns
+::: {.column width="40%"}
+![](images/seba_avatar_gmail.png){fig-align="center"}
+:::
+::: {.column width="60%"}
+&#32;<br>
+
+* Sebastián Flores aka sebastiandres
+* Python Chile & IA Devs
+* Streamlit Creator
+* Innnovation Lead @ uPlanner
+:::
+:::
+
+---
+
+## 3 historias personales
+
+---
+
+## Historia #1 
+
+![](images/rubik.png){fig-align="center" height="600px"}
+
+::: {.notes}
+Me habia rendido de aprender a resolver el cubo de rubik. Lo intenté yo mismo, a los 14 años, y no pude resolverlo. Pensé que era una habilidad que simplemente no tenía. 
+Por casualidad leí un artículo en el diario.
+
+Moraleja:
+No puedes aprender lo que no crees que puedas aprender.
+Las creencias limitantes son poderosas.
+
+Visto de otra manera: Efecto ratatuille. 
+Cualquiera puede llegar a ser un gran Chef. >> Un gran chef puede venir de cualquier parte. >> Hasta una rata puede programar si se lo propone.
+:::
+
+---
+
+::: columns
+::: {.column width="70%"}
+::: {.callout-warning title="Aprendizaje #1: Profesía autocumplida"}
+Sólo puedes aprender lo que **crees** que puedas aprender.
+
+**Es difícil** aprender lo que **no crees** que puedes aprender.
+:::
+:::
+::: {.column width="25%"}
+[|]{style="font-size: 10px; margin: 0px; color:white"}
+![](images/rata2.jpeg){fig-align="center" height="200px"}
+:::
+:::
+
+---
+
+## Historia #2
+
+![](images/arnold.png){fig-align="center" height="600px"}
+
+::: {.notes}
+¿Quién acá conoce a Arnold Schwarzenegger?
+Arnold nació en Austria, y llegó a EEUU con 50 dolares en el bolsillo.
+Llegó a ser Mister Olimpia 2 veces. Protagonista de las peliculas de acción más icónicas de los 80. Governador de California. 
+Nunca lo pesqué mucho porque pensaba que era un cabeza de músculo.
+Pero una vez escuche un podcast donde le preguntaron:
+¿Eres un self made man? 
+Me esperaba la respuesta típica: claro que si, todo es esfuerzo, hay que levantarse a las 5 am, triturar a tus oponentes, etc etc.
+No. Dijo que nadie era nada sin ayuda.
+Que el había recibido ayuda, consejo, y soporte en cada paso.
+Desde los spotters en el gym, etc etc. 
+Nadie llega lejos solo.
+:::
+
+---
+
+::: columns
+::: {.column width="25%"}
+[|]{style="font-size: 10px; margin: 0px; color:white"}
+![](images/apes.jpeg){fig-align="center" height="200px"}
+:::
+::: {.column width="70%"}
+::: {.callout-warning title="Aprendizaje #2: Comunidad"}
+Para ir rápido, viaja solo.
+
+Para ir lejos, viaja en grupo.
+:::
+:::
+:::
+
+## Historia #3
+
+![](images/cake.png){fig-align="center" height="600px"}
+
+::: {.notes}
+En 1950, en USA aparecieron los "cake in a box" "instant cake" (imagen). La premisa: agregar agua, revolver y hornear. 
+A pesar del respaldo de la marca Betty Crocker, de que eran a prueba de errores, de que se ahorraba mucho tiempo, no funcionaron.
+Estudios mostraron que las cocineras (si, sorry por el anacronismo) se sentían culpables. 
+¿La solución? Hicieron la receta menos conveniente, y ahora requería agregar agua y huevos, revolver y hornear.
+- Ownership.
+- No queremos que sea demasiado facil. Queremos ponerle esfuerzo.
+Fuente: https://www.psychologytoday.com/us/blog/inside-the-box/201401/creativity-lesson-betty-crocker
+:::
+
+---
+
+::: columns
+::: {.column width="70%"}
+::: {.callout-warning title="Aprendizaje #3: Efecto IKEA"}
+Queremos poder estar orgullosos de nuestro trabajo. 
+
+Queremos sentir que lo hicimos con nuestro esfuerzo.
+
+Queremos que no sea **trivial**.
+:::
+:::
+::: {.column width="25%"}
+&#32;<br>
+![](images/karatekid.jpg){fig-align="center" height="200px"}
+:::
+:::
+
+---
+
+## ¿Y Python? 
+
+::: {.incremental}
+1. Python es un lenguaje simple, **cualquiera puede aprenderlo**.
+2. Python tiene una **gran comunidad** y una enorme cantidad de recursos.
+3. Python entrega un gran **balance** entre "simple" y "poderoso".
+4. Nadie conoce todo Python: todos tenemos algo por aprender.
+:::
+
+---
+
+## 3 consejos para aprender con Python
+
+---
+
+## Consejo #1: Economía de la atención
+
+::: columns
+::: {.column width="50%"}
+[|]{style="font-size: 10px; margin: 0px; color:white"}
+![](images/attention.png){fig-align="center" height="600px"}
+:::
+::: {.column width="50%" .incremental}
+&#32;<br>
+
+* **Diseña** como inviertes tu tiempo.
+* **Atrévete** a ser impopular.
+* Otros pueden enseñarte, pero **sólo tú** puedes aprender.
+* Si el problema fuera **únicamente** el conocimiento, todos tendríamos six-pack y seríamos millonarios.
+:::
+:::
+
+---
+
+## Aprendizajes #1
+
+::: {.incremental}
+* Usa las redes a tu favor: sigue a expertos, pregunta, comparte, 
+  * [www.pythonchile.cl](https://www.pythonchile.cl){target="_blank"}  
+  * [www.iadevs.cl](https://www.iadevs.cl){target="_blank"}  
+* Participar en eventos: PyDay (Valpo), PyCon, IADevs, JSConf, etc.
+* Crear y compartir proyectos: todos los expertos están a 1 click de distancia.
+:::
+
+::: {.callout-tip title="¿Cómo aprender?" .fragment}
+Sé un **creador** no un consumidor.
+:::
+
+---
+
+## Consejo #2: Aprender NO es gratis
+
+::: columns
+::: {.column width="50%"}
+[Efecto Dunning-Kruger]{style="font-size: 30px; margin: 0px;"}
+![](images/dunningkruger1.jpeg){fig-align="center"}
+:::
+::: {.column width="50%" .incremental}
+1. Para aprender necesitas **tiempo**, **esfuerzo** y **humildad**.
+2. Sobreestimamos lo que podemos hacer en 1 día y subestimamos lo que podemos aprender en un año.
+3. En 1 año desearás haber partido hoy. El tiempo pasará de todos modos.
+:::
+:::
+
+---
+
+## Aprendizajes #2: ¿Y Python?
+
+::: columns
+::: {.column width="50%"}
+¡No importa lo que quieras aprender, hay una librería para eso!
+
+<br>
+
+**Instalar:**
+```
+pip install my_library
+```
+
+<br>
+
+**Usar:**
+```
+from my_library import my_function
+my_function()
+```
+:::
+::: {.column width="50%"}
+![](images/libraries.jpg){fig-align="center" height="600px"}
+:::
+:::
+
+---
+
+## Consejo #3: Aprender es un juego de contacto
+
+::: columns
+::: {.column width="50%"}
+![](images/fightit.png){fig-align="center" height="600px"}
+:::
+::: {.column width="50%" .incremental}
+<br>
+
+* Aprender proactivamente: Cuéstionandolo todo.
+* Aprende haciendo: crea tus materiales y proyectos.
+* Hazlo entretenido, no tengas miedo al ridículo.
+:::
+:::
+
+---
+
+## Ejemplo 1: Visualización de datos
+
+![](images/mplotjourney.png){fig-align="center" height="800px"}
+
+
+--- 
+
+```{pyodide-python}
+required_libraries = ["pywaffle", "matplotlib"]
+await micropip.install(required_libraries)
+print("Librerias instaladas:", ",".join(required_libraries))
+```
+
+```{pyodide-python}
+from pywaffle import Waffle
+import matplotlib.pyplot as plt
+
+def waffle(values, colors=["#FFA500", "#4384FF", "#C0C0C0"], icons=['sun', 'cloud-showers-heavy', 'snowflake']):
+  fig, ax = plt.subplots(figsize=(8,3), layout="tight")
+  ax.set_aspect("equal")
+  Waffle.make_waffle(
+    rows=5,
+    columns=20,
+    values=values,
+    colors=colors,
+    icons=icons,
+    font_size=14,
+    ax=ax,
+  )
+  plt.show()
+print("Funcion definida: waffle")
+```
+
+--- 
+
+```{pyodide-python}
+waffle([55, 26, 19])
+```
+
+--- 
+
+```{pyodide-python}
+waffle( values=[7, 6, 5, 4, 3, 2, 1], 
+        colors=["lightblue", "blue", "lightgreen", "pink", "maroon", "grey", "white"], 
+        icons=["star", "meteor", "battery-full", "person", "road", "guitar", "chess-king"])
+```
+
+--- 
+
+## Ejemplo 2: Música
+
+::: {.incremental}
+* Tarjetas para memorizar notas músicales en pentagrama y guitarra.
+* Artefacto para aprender escala mayor y menor.
+* Aplicación web para analizar sonidos.
+:::
+
+---
+
+```{=html}
+<iframe width="1200" height="700" src="https://strumlit.streamlit.app/?embed=true" title="Strumlit"></iframe>
+```
+
+---
+
+## Ejemplo 3: LLMs
+
+Taller de "Taller de Python + IA para todos ¡Haz tu propio ChatGPT!
+
+::: {.incremental}
+* ¿Tokens?
+* ¿LLMs?
+* ¿APIs de LLMs?
+* ¿Autenticación?
+:::
+
+---
+
+```{=html}
+<iframe width="1200" height="700" src="https://cittripio.streamlit.app/v1?embed=true" title="Cittripio"></iframe>
+```
+
+
+---
+
+## Conclusión
+
+**Historias:**
+
+::: {.incremental}
+* Rubik: Puedes aprender cualquier cosa.
+* Arnold: Busca una comunidad.
+* Instant cake: Valoramos lo que nos ha costado.
+:::
+
+**Consejos:**
+
+::: {.incremental}
+* Cuida tu tiempo. ¡Aprende Python!
+* Aprender NO es gratis. Involúcrate en tu aprendizaje.
+:::
+
+---
+
+## ¡Gracias!
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Del experimento al conocimiento]{style="font-size: 20px; margin: 0px;"} <br>
+[Usando Python para explorar nuevas ideas]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, 02 abril 2025]{style="font-size: 25px;"}
+:::
