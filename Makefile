@@ -1,17 +1,23 @@
-r0:
-	quarto render 0-intro.qmd
+r11:
+	quarto render P1B1-intro.qmd
 
-r1:
-	quarto render 1-better-presentations.qmd
+r12:
+	quarto render P1B2-DataStorytellingBasics.qmd
 
-r2:
-	quarto render 2-better-visuals.qmd
+r13:
+	quarto render P2B3-DataStorytellingFramework.qmd
 
-v0:
-	open 0-intro.html
+r14:
+	quarto render P2B4-VisualizationQuickWins.qmd
 
-v1:
-	open 1-better-presentations.html
+v11:
+	open P1B1-intro.html
 
-v2:
-	open 2-better-visuals.html
+v12:
+	open P1B2-DataStorytellingBasics.html
+
+v13:
+	open P1B3-DataStorytellingFramework.html
+
+v14:
+	open P1B4-VisualizationQuickWins.html
