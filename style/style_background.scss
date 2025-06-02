@@ -25,7 +25,7 @@ $main-color: #ffffff;
       background-image: url("https://github.com/sebastiandres/workshop_better_presentations/blob/main/style/custom_title_16x9.png?raw=true") !important;
       background-position: center !important;
       background-size: contain !important;
-      opacity: 0.60 !important;
+      opacity: 1.00 !important;
       background-color: $main-color !important;
       color: white !important;   
       }
@@ -36,7 +36,7 @@ $main-color: #ffffff;
     background-image: url("https://github.com/sebastiandres/workshop_better_presentations/blob/main/style/custom_section_16x9.png?raw=true") !important;
     background-position: left !important;
     background-size: contain !important;
-    opacity: 0.25 !important;
+    opacity: 0.50 !important;
     background-color: $main-color !important;
     color: white !important;   
   }

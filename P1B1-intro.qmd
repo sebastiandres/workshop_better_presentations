@@ -1,0 +1,244 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    menu: false
+    controls: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: false
+    toc: false
+    center: true
+    slide-number: false
+    preview-links: false
+    output-file: "P1B1-intro.html"
+    theme:
+        - simple
+        - style/style_background.scss
+filters:
+  - pyodide
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 500px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Python and Data Storytelling <br> to create and deliver better presentations]{style="font-size: 40px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Part 1 - Block 1]{style="font-size: 20px; margin: 0px;"} <br>
+[Setting expectations]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+:::
+
+---
+
+## About the workshop
+
+* **Part 1**: 90 minutes
+* **Coffee Break**: 15 minutes
+* **Part 2**: 90 minutes
+
+---
+
+## About the workshop
+
+* **Part 1**: 
+  * Block 1: Intro & setting expectations
+  * Block 2: Data Storytelling Basics
+  * Block 3: Data Storytelling - A Framework
+  * Block 4: Visualization Quick Wins
+  * Q&A
+
+---
+
+::: {.callout-warning title="Important"}
+This presentation has workshop format - not talk format.
+
+Do as I say, not as I do.
+:::
+
+---
+
+## About me
+::: columns
+::: {.column width="40%"}
+![](images/seba_avatar_gmail.png){fig-align="center"}
+:::
+::: {.column width="60%"}
+&#32;<br>
+
+* Sebastián Flores aka sebastiandres
+* Python Chile & IA Devs
+* Streamlit Creator
+* Innnovation Lead @ uPlanner
+:::
+:::
+
+---
+
+
+## My story in 4 graphics
+
+![](code/0_baseline.png){fig-align="center"}
+
+---
+
+## My story in 4 graphics
+
+![](code/1_UTFSM.png){fig-align="center"}
+
+---
+
+## My story in 4 graphics
+
+![](code/2_École_Polytechnique.png){fig-align="center"}
+
+---
+
+## My story in 4 graphics
+
+![](code/3_Stanford.png){fig-align="center"}
+
+---
+
+## My story in 4 graphics
+
+![](code/4_Trabajo.png){fig-align="center"}
+
+---
+
+## About the workshop materials
+
+- All materials are available on my [GitHub](https://github.com/sebastiandres/workshop-better-presentations): https://github.com/sebastiandres/workshop-better-presentations
+- Take notes, ask questions, and participate actively.
+
+---
+
+## Activity 1: The judging hat {.fragment}
+
+- I will give a short presentation
+- You will take notes on the presentation: 
+  - What can be improved?
+  - What is bad/unclear?
+- We will do a critique of the presentation
+
+---
+
+[Switch to presentation]
+
+---
+
+## Activity 1: The judging hat
+
+What went wrong?
+
+---
+
+## What went wrong?
+
+* Poor structure
+* Poor content
+* Poor slides
+* Poor delivery
+
+---
+
+## What can we learn from this? {.fragment}
+
+- You already have a taste for good presentations. 
+- Usually it's enough to "be brave" and "trust your instincts"
+- We will develop a framework to guide how to craft better presentations.
+
+---
+
+## Presentation is communication
+
+![](images/P1B1/ppt_schema.png){fig-align="center"}
+
+::: {.notes}
+This schema is a simplification. But it really boils down to this.
+Someone presents.
+Someone receives.
+A message is exchanged (almost unidirectionally)
+:::
+
+---
+
+##### Presentation is communication
+### The human speaker
+
+Humans: old hardware running updated and very demanding software
+
+::: columns
+::: {.column width="50%" .fragment}
+Good news:
+
+- Presenting is a skill that can be learned.
+:::
+::: {.column width="50%" .fragment}
+Bad news:  
+
+- Being nervous while presenting: part of a healthy brain.
+:::
+:::
+
+--- 
+
+##### Presentation is communication
+### The human audience
+
+::: columns
+::: {.column width="50%" .fragment}
+Good news (for the presenter):
+
+- Audience wants you to succeed.
+- Brains are easy to hack.
+:::
+::: {.column width="50%" .fragment}
+Bad news (for the presenter):  
+
+- Audience is easily distracted.
+:::
+:::
+
+---
+
+##### Presentation is communication
+### The message
+
+Message should be tailored [**to the specific audience**]{.fragment}
+
+[Data Storytelling helps selecting the best **content** and **format** to make the message clear and engaging]{.fragment}
+
+---
+
+## Data Storytelling
+
+My definition:
+
+Tricks and tools to deliver better (data) presentations.
+
+---
+
+##### Presentation is communication
+### Non verbal communication
+
+There's more than just content:
+
+{{< video https://www.youtube.com/embed/8S0FDjFBj8o >}}
+
+How to sound smart in your TEDx Talk | Will Stephen | TEDxNewYork
+
+

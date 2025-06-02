@@ -1,0 +1,86 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    menu: false
+    controls: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: false
+    toc: false
+    center: true
+    slide-number: false
+    preview-links: false
+    output-file: "P1B4-VisualizationQuickWins.html"
+    theme:
+        - simple
+        - style/style_background.scss
+filters:
+  - pyodide
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Tools, Tips, and Tricks to create and deliver better presentations]{style="font-size: 20px; margin: 0px;"} <br>
+[Python and storytelling to the rescue]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Part 1 - Block 4]{style="font-size: 20px; margin: 0px;"} <br>
+[Quick Wins in Visualization]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+:::
+
+---
+
+## Simple ideas with high impact
+
+* Use simpler plots
+* Use "better" colors
+* Develop a progression
+* Annotate your plots
+* The forbidden moves
+
+---
+
+## Use simpler plots
+
+Avoid using complex / custom plots.
+
+Most cases can be solved with 8 simple plots:
+
+* Number
+* Table
+* Horizontal bar chart
+* Line chart
+* Scatter plot
+* Box plot
+* Histogram
+* Area chart
+
+--- 
+
+## Use "better" colors
+
+---
+
+## Develop a progression
+
+---
+
+## Annotate your plots
+
+---
+

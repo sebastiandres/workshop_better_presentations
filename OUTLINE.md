@@ -18,29 +18,21 @@ This tutorial is structured as a hands-on workshop designed for active engagemen
 
 The tutorial is designed as an interactive, hands-on learning experience, equipping attendees with practical tools and skills to craft better presentations. Using a poorly designed presentation as a case study, participants will learn and apply step by step practical knowledge to transform it into an outstanding, memorable presentation.
 
-Introduction (30 mins)
-Lecture (15 mins): About the workshop and the learning outcomes
-Activity 1 (15 mins): Example a bad presentation. Feedback from the audience
+Part 1: (90 mins, 13:45 - 15:15)
+- Introduction (20 mins)
+- Data Storytelling Basics (20 mins)
+- Data Storytelling - a framework (20 mins)
+- Visualization quick wins (20 mins)
+- Q & A (10 mins)
 
-How to make better presentations (60 mins)
-People-oriented skills (30 mins): 
-Lecture (15 mins): goal of presentation, avoiding fear, including humor and storytelling, structuring a presentation. 
-Activity 2 (15 mins): Critique to the bad presentation example. Ideas to improve it.
-Tech-oriented skills (30 mins):
-Lecture (15 mins): Basics of quarto. Using the pyodide extension.
-Activity 3 (15 mins): My first quarto presentation. Converting from powerpoint to quarto. 
+Coffee break (15 mins, 15:15 - 15:30)
 
-(Coffee break)
+Part 2: (90 mins, 15:30 - 17:00)
+- Visualization - a framework (20 mins)
+- More advice on visualization (20 mins)
+- Interactivity with quarto & pyodide (20 mins)
+- Interactivity with Jupyter & RISE (20 mins)
+- Q & A (10 mins)
 
-How to create better visuals (60 mins)
-People-Oriented Skills (30 mins)
-Lecture (15 mins): Importance of images, visual design and visualizations. Recommendations and principles.
-Activity 4 (15 mins): Critique to the bad presentation example. Ideas to improve it.
-Tech-oriented skills (30 mins)
-Lecture (15 mins): Best practices to include images and create visualizations. 
-Activity 5 (15 mins): Interactivity with pyodide and visualization tools.
-
-Outro (30 mins)
-Presentation of our improved presentation.
-Recap. Survey. Recommendations.
-Q&A (depends on time)
+# Links
+https://www.ep2025.europython.eu/session/python-and-data-storytelling-to-create-and-deliver-better-presentations
