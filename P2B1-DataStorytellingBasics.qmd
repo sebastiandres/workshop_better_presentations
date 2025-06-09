@@ -1,0 +1,414 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    controls: true
+    menu: true
+    slide-number: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: false
+    toc: false
+    center: true
+    preview-links: false
+    theme:
+        - simple
+        - style/style_background.scss
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 500px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Python and Data Storytelling <br> to create and deliver better presentations]{style="font-size: 40px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Part 1 - Block 2]{style="font-size: 20px; margin: 0px;"} <br>
+[Data Storytelling Basics]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+:::
+
+---
+
+## Agenda { .custom-slide }
+::: columns
+::: {.column width="30%" .incremental}
+* &#32;
+* No
+* Nope
+* No chance
+:::
+::: {.column width="70%" .fragment}
+**Storytelling principle #1:** 
+
+Never give away the ending!
+
+Always raise the stakes! 
+:::
+:::
+
+---
+
+::: {.callout-warning title="Important"}
+[Do whatever works for your presentation. Be as unconventional as you want/can.]{.fragment}
+
+[**You** are in charge of the **narrative** and the **instruments** to tell it.]{.fragment}
+:::
+
+---
+
+## { .custom-section }
+::: {style="position: absolute; left: 100px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Why Data Storytelling?]{style="font-size: 60px; margin: 0px"} <br>
+:::
+
+---
+
+---
+
+## ¿Storytelling?
+::: columns
+::: {.column width="50%"}
+![](images/P1B2/fire.jpeg){fig-align="center"}
+:::
+::: {.column width="50%" .fragment .center}
+&#32;<br><br><br><br>
+Stories are 
+
+the first human technology
+:::
+:::
+
+---
+
+## The hackable brain
+
+The main point of Data Storytelling is that brains are [**very predictable**]{.fragment}.
+
+[Storytellers know and exploit this.]{.fragment}
+
+[IMAGE OF BRAIN NEEDED]
+
+---
+
+## Example #1
+::: columns
+::: {.column width="45%"}
+Peak-End Rule
+![](images/P1B2/sketplanation.png){fig-align="center"}
+Image by sketplanation
+:::
+::: {.column width="55%" .fragment}
+![](images/P1B2/got.jpg){fig-align="center"}
+
+[Game of Thrones rating, by Kelvin Neo]{.fragment}
+:::
+:::
+
+---
+
+::: {.callout-tip title="Example #1: What did we learn?" .fragment}
+Endings are the most important part of the story (and the presentation).
+
+The ending is what gets remembered. It should tie everything together.
+:::
+
+---
+
+## Example #2
+::: columns
+::: {.column width="30%" .fragment fragment-index=1}
+![](images/storytelling/spotify1.jpeg){fig-align="center"}
+:::
+::: {.column width="40%" .center}
+&#32;<br><br>
+How to make millions of people share statistics on social media?
+:::
+::: {.column width="30%" .fragment fragment-index=1}
+![](images/storytelling/spotify2.jpeg){fig-align="center"}
+:::
+:::
+
+---
+
+::: {.callout-tip title="Example #2: What did we learn?"}
+[Statistics get ignored.]{.fragment} [Emotions are remembered.]{.fragment} [Stories get shared.]{.fragment}
+:::
+
+---
+
+## 
+::: columns
+::: {.column width="60%"}
+&#32;<br><br><br>
+Data Storytelling:  
+
+Using storytelling **tricks** to create presentations that will be **remembered** and that **create impact**
+
+:::
+::: {.column width="40%" .fragment}
+![](images/P1B2/sherlock.jpeg){fig-align="center"}
+:::
+:::
+
+. . .
+
+::: {style="text-align: center;"}
+Emotions create actions
+:::
+
+---
+
+## The great filter
+
+We are only as good as our communication skills. 
+
+[IMAGE OF A FILTER NEEDED]
+
+--- 
+
+## { .custom-section }
+
+::: {style="position: absolute; left: 100px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[5 Data Storytelling Principles]{style="font-size: 60px; margin: 0px"} <br>
+:::
+
+---
+
+## Principle #1
+
+[Always raise the stakes!]{.fragment}
+
+[Never give away the ending!]{.fragment}
+
+---
+
+## Principle #2
+
+[Details are important, but not all details are important.]{.fragment}
+
+[Simple is always better.]{.fragment}
+
+[Don't try to look smart by using fancy words and too many details. Smart peopla explain complex ideas in simple ways.]{.fragment}
+
+This manifests in two ways:
+
+- Less text
+- Simpler graphs
+- Analogies and metaphors: break down complex ideas into simpler ones
+
+---
+
+## Principle #3
+
+[Show, don't tell.]{.fragment}
+
+- Dont say "this is the best": show why it could be the best.
+- Dont say the code is clean: show the code.
+- People don't want to be spoon-fed nor told what to think: find the right balance.
+
+---
+
+## Principle #4
+
+---
+
+## Principle #5
+
+---
+
+## Exploratory Viz != Explanatory Viz
+
+Craft what YOU want your audience to see.
+
+Avoid exploratory graphs on your presentation.
+
+---
+
+## Data Exploratory Viz
+
+![](images/P1B2/looker.png){width=400 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+
+. . .
+
+![](images/P1B2/tableau.png){.absolute top=125 left=25 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+. . .
+
+![](images/P1B2/pbi.png){.absolute top=150 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+. . .
+
+[Too many options! <br> User **cannot** be responsible of finding your insights.]{ style="background-color: #fff" }
+
+---
+
+## { .custom-slide }
+::: columns
+::: {.column width="10%"}
+&#32;
+:::
+::: {.column width="70%"}
+**Storytelling principle #2:** 
+
+Details are important, 
+
+[but not **all** details are important.]{.fragment}
+:::
+:::
+
+---
+
+## Data Explanatory Viz
+
+So many good python libraries!
+
+* Classic: Matplotlib
+* Rising starts: Seaborn, Plotly, Altair
+* Other: bokeh, plotnine, pygal and more!
+
+. . . 
+
+::: {style="text-align:center"}
+Pick one and master it.
+Matplotlib + seaborn is a killer combo.
+:::
+
+---
+
+## 
+
+Same data, two plots:
+
+::: columns
+::: {.column width="50%" .fragment}
+![](images/dst_before.png){fig-align="center"}
+:::
+::: {.column width="50%" .fragment}
+![](images/dst_after.png){fig-align="center"}
+:::
+:::
+
+. . .
+
+Don't share numbers. Share a story.
+
+[(C) Storytelling with Data, por Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
+
+---
+
+## { .custom-section }
+
+[Data Storytelling]{style="font-size: 1em"}
+
+[Tool #2: AI]{style="font-size: 2em"}
+
+---
+
+## { .custom-slide }
+::: columns
+::: {.column width="10%"}
+&#32;
+:::
+::: {.column width="70%"}
+**Storytelling principle #3:** 
+
+Your first draft is always going to be terrible.
+:::
+:::
+
+---
+
+##
+::: columns
+::: {.column width="60%"}
+&#32;<br><br>
+
+* Use AI chatbots for: 
+  * Analogies and examples
+  * Prompts to create better images!
+* Don't search for images, create them!
+:::
+::: {.column width="40%" .fragment}
+![](images/ai/choice.jpeg){fig-align="center"}
+:::
+:::
+
+---
+
+## { .custom-slide }
+::: columns
+::: {.column width="10%"}
+&#32;
+:::
+::: {.column width="70%"}
+**Storytelling principle #4:** 
+
+[Show]{style="color: green"}, [don't tell.]{style="color: red"}
+:::
+:::
+
+---
+
+## [Show]{style="color: green"}, [don't tell.]{style="color: red"} 
+
+::: columns
+::: {.column width="50%" .fragment fragment-index=2}
+[Guido's eyes lit up as the terminal finally executed without errors. A wide grin spread across his face. He jumped up from his chair, fists raised in triumph. "Yes!" he exclaimed, as he savored the moment of triumph with a deep, contented sigh.]{style="color: green"}
+:::
+::: {.column width="50%" .fragment fragment-index=1}
+[Guido was happy because he solved the bug on his code.]{style="color: red"}
+:::
+:::
+
+---
+
+## Presentation tools
+
+* Classic: PowerPoint
+* **"Show don't tell" tools: quarto, jupyter + RISE, streamlit**
+* Other: canvas, revealjs, prezi
+
+---
+
+## Recommended reading
+::: columns
+::: {.column width="50%"}
+**Storytelling**
+
+* Storyworthy, Matthew Dicks
+* Made to Stick, Chip Heath and Dan Heath
+* Bird by Bird – Anne LaMott
+* The Science of Storytelling – Will Storr
+* A Swim in a Pond in the Rain – George Saunders
+* Steering the Craft – Ursula K. Le Guin
+* Into the Woods – John Yorke
+* This Craft of Verse – Jorge Luis Borges
+* Meander, Spiral, Explode – Jane Alison
+* Several Short Sentences About Writing – Verlyn Klinkenborg
+* Conflict & Suspense – James Scott Bell
+:::
+
+::: {.column width="50%"}
+**Data Storytelling**
+
+* Storytelling with Data, Cole Nussbaumer Knaflic
+* The Visual Display of Quantitative Information, Edward Tufte
+* Beautiful Evidence, Edward Tufte
+* How charts lie, Alberto Cairo
+* The Truthful Art, Alberto Cairo
+* The Functional Art, Alberto Cairo
+* Matplotlib Journey (https://www.matplotlib-journey.com/), Yann Holtz and Joseph Barbier
+:::
+:::

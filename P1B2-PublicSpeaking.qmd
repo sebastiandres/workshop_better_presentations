@@ -1,0 +1,119 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    menu: false
+    controls: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: false
+    toc: false
+    center: true
+    slide-number: false
+    preview-links: false
+    theme:
+        - simple
+        - style/style_background.scss
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 500px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Python and Data Storytelling <br> to create and deliver better presentations]{style="font-size: 40px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Part 1 - Block 21]{style="font-size: 20px; margin: 0px;"} <br>
+[Public Speaking]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+:::
+
+---
+
+## Presentation is communication
+
+![](images/P1B1/ppt_schema.png){fig-align="center"}
+
+::: {.notes}
+This schema is a simplification. But it really boils down to this.
+Someone presents.
+Someone receives.
+A message is exchanged (almost unidirectionally)
+:::
+
+---
+
+##### Presentation is communication
+### The human speaker
+
+Humans: old hardware running updated and very demanding software
+
+::: columns
+::: {.column width="50%" .fragment}
+Good news:
+
+- Presenting is a skill that can be learned.
+:::
+::: {.column width="50%" .fragment}
+Bad news:  
+
+- Being nervous while presenting: part of a healthy brain.
+:::
+:::
+
+--- 
+
+##### Presentation is communication
+### The human audience
+
+::: columns
+::: {.column width="50%" .fragment}
+Good news (for the presenter):
+
+- Audience wants you to succeed.
+- Brains are easy to hack.
+:::
+::: {.column width="50%" .fragment}
+Bad news (for the presenter):  
+
+- Audience is easily distracted.
+:::
+:::
+
+---
+
+##### Presentation is communication
+### The message
+
+Message should be tailored [**to the specific audience**]{.fragment}
+
+[Data Storytelling helps selecting the best **content** and **format** to make the message clear and engaging]{.fragment}
+
+---
+
+##### Presentation is communication
+### Non verbal communication
+
+There's more than just content:
+
+{{< video https://www.youtube.com/embed/8S0FDjFBj8o >}}
+
+How to sound smart in your TEDx Talk | Will Stephen | TEDxNewYork
+
+---
+
+## Next:
+
+Part 1 - Block 3: Visualization Quick Wins
+

@@ -14,12 +14,9 @@ format:
     center: true
     slide-number: false
     preview-links: false
-    output-file: "P1B1-intro.html"
     theme:
         - simple
         - style/style_background.scss
-filters:
-  - pyodide
 ---
 
 ## { .custom-title }
@@ -44,30 +41,116 @@ filters:
 
 ---
 
-## About the workshop
+::: {.callout-warning title="Note #1" .fragment}
+This presentation has workshop format - not talk format.
+
+Do as I say, not as I do.
+:::
+
+::: {.callout-tip title="Note #2" .fragment}
+This presentation was done with quarto!  
+(I'll teach you how!)
+:::
+
+---
+
+## Workshop Structure
 
 * **Part 1**: 90 minutes
 * **Coffee Break**: 15 minutes
 * **Part 2**: 90 minutes
 
+
+---
+
+## Data Storytelling
+
+Data Storytelling:  
+Tricks and tools to deliver better (data) presentations.
+
+I prefer to say "Practical Storytelling" because it applies to more than just data.
+
+---
+
+
+## Why do we make presentations?
+
+- Work: 
+  - To inform
+  - To take action
+  - To take decisions
+- Personal:
+  - To share knowledge
+  - To get feedback
+  - To expand our network
+
+---
+
+## What types of talks do you give?
+
+- Party small talk
+- Ted talk
+- Scientific talk
+- Work presentation
+- Conference talk
+- Tutorial
+- Workshop
+- ...
+
+
+---
+
+## {transition="none"} 
+
+![](images/P1B1/data_storytelling_model_0.png){fig-align="center" width="70%"}
+
+---
+
+## {transition="none" visibility="uncounted"} 
+
+![](images/P1B1/data_storytelling_model_1.png){fig-align="center" width="70%"}
+
+---
+
+## {transition="none" visibility="uncounted"} 
+
+![](images/P1B1/data_storytelling_model_2.png){fig-align="center" width="70%"}
+
+---
+
+## {transition="none" visibility="uncounted"} 
+
+![](images/P1B1/data_storytelling_model_3.png){fig-align="center" width="70%"}
+
+---
+
+## {transition="none" visibility="uncounted"} 
+
+![](images/P1B1/data_storytelling_model_4.png){fig-align="center" width="70%"}
+
 ---
 
 ## About the workshop
 
-* **Part 1**: 
-  * Block 1: Intro & setting expectations
-  * Block 2: Data Storytelling Basics
-  * Block 3: Data Storytelling - A Framework
-  * Block 4: Visualization Quick Wins
-  * Q&A
+::: columns
+::: {.column width="50%"}
+* Intro & Setting Expectations
+* Practical Storytelling and Public Speaking
+* Visualization Quick Wins
+* Visualization Quick Wins - The revenge!
+* Q&A
+:::
+::: {.column width="50%"}
+* Storytelling crash course
+* A Practical Storytelling Framework
+* Practical Storytelling tools 1
+* Practical Storytelling tools 2
+* Q&A
+:::
+:::
 
 ---
 
-::: {.callout-warning title="Important"}
-This presentation has workshop format - not talk format.
-
-Do as I say, not as I do.
-:::
 
 ---
 
@@ -148,97 +231,22 @@ What went wrong?
 
 ## What went wrong?
 
-* Poor structure
-* Poor content
-* Poor slides
+* Lacks structure
+* Unclear message
+* Bad slides design
 * Poor delivery
+* ...
 
 ---
 
 ## What can we learn from this? {.fragment}
 
 - You already have a taste for good presentations. 
-- Usually it's enough to "be brave" and "trust your instincts"
 - We will develop a framework to guide how to craft better presentations.
+- Trust your instincts - work to develop them! 
 
 ---
 
-## Presentation is communication
+## Next:
 
-![](images/P1B1/ppt_schema.png){fig-align="center"}
-
-::: {.notes}
-This schema is a simplification. But it really boils down to this.
-Someone presents.
-Someone receives.
-A message is exchanged (almost unidirectionally)
-:::
-
----
-
-##### Presentation is communication
-### The human speaker
-
-Humans: old hardware running updated and very demanding software
-
-::: columns
-::: {.column width="50%" .fragment}
-Good news:
-
-- Presenting is a skill that can be learned.
-:::
-::: {.column width="50%" .fragment}
-Bad news:  
-
-- Being nervous while presenting: part of a healthy brain.
-:::
-:::
-
---- 
-
-##### Presentation is communication
-### The human audience
-
-::: columns
-::: {.column width="50%" .fragment}
-Good news (for the presenter):
-
-- Audience wants you to succeed.
-- Brains are easy to hack.
-:::
-::: {.column width="50%" .fragment}
-Bad news (for the presenter):  
-
-- Audience is easily distracted.
-:::
-:::
-
----
-
-##### Presentation is communication
-### The message
-
-Message should be tailored [**to the specific audience**]{.fragment}
-
-[Data Storytelling helps selecting the best **content** and **format** to make the message clear and engaging]{.fragment}
-
----
-
-## Data Storytelling
-
-My definition:
-
-Tricks and tools to deliver better (data) presentations.
-
----
-
-##### Presentation is communication
-### Non verbal communication
-
-There's more than just content:
-
-{{< video https://www.youtube.com/embed/8S0FDjFBj8o >}}
-
-How to sound smart in your TEDx Talk | Will Stephen | TEDxNewYork
-
-
+Part 1 - Block 2: Public Speaking

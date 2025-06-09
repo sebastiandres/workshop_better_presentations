@@ -1,0 +1,167 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    controls: true
+    menu: true
+    slide-number: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: false
+    toc: false
+    center: true
+    preview-links: false
+    theme:
+        - simple
+        - style/style_background.scss
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 500px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Python and Data Storytelling <br> to create and deliver better presentations]{style="font-size: 40px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Part 1 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
+[Visualization Quick Wins]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+:::
+
+---
+
+## Quick wins
+Let's see some quick wins and code before the Q&A and coffee break.
+
+---
+
+## Simple ideas with high impact
+
+* Use common plots
+* The forbidden moves
+* Develop a progression
+* Annotate your plots
+* Use simpler plots
+* Use "better" colors
+
+---
+
+## Use common plots
+
+Avoid using complex / custom plots. You can most likely use the following 8 plots:
+
+[Make your bets]
+
+[KISS]
+
+---
+
+![](images/P1B4/common_plots.png){style="width: 100%;"}
+
+---
+
+## Mis-en-place
+
+* Label in context
+* Sort if categories
+
+---
+
+## Example #1
+
+[BEFORE]
+
+---
+
+## Example #1
+[AFTER]
+
+--- 
+
+## Code comparison
+
+---
+
+## Use "better" colors
+
+* Inspire yourself with: conference website & socials.
+* Use a color from a theme
+* Look online for inspiration
+
+---
+
+## Example #3
+
+[BEFORE DEFAULT]
+
+---
+
+## Example #3
+
+[AFTER CUSTOM]
+
+---
+
+## Code comparison
+
+---
+
+## Develop a progression
+
+Your 2 best friends:
+
+* zlevel & opacity
+* `plt.savefig`
+
+---
+
+## Example #1
+
+[BEFORE]
+
+---
+
+## Example #1
+
+[AFTER]
+
+---
+
+Code comparison
+
+---
+
+## Annotate your plots
+
+Your 2 best friends.
+
+* `plt.text`
+* `pytext`: Library to write texts with multiple fonts & colors
+* `pyannotate`: Library to draw arrows
+
+---
+
+## Example #2
+
+[BEFORE]
+
+---
+
+## Example #2 
+
+[AFTER]
+
+---
+
+Code comparison

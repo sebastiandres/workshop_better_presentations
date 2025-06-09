@@ -1,0 +1,194 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    controls: true
+    menu: true
+    slide-number: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: false
+    toc: false
+    center: true
+    preview-links: false
+    theme:
+        - simple
+        - style/style_background.scss
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 500px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Python and Data Storytelling <br> to create and deliver better presentations]{style="font-size: 40px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Part 2 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
+[Data Storytelling Tools]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+:::
+
+---
+
+## { .custom-slide }
+::: columns
+::: {.column width="10%"}
+&#32;
+:::
+::: {.column width="70%"}
+**Storytelling principle #4:** 
+
+[Show]{style="color: green"}, [don't tell.]{style="color: red"}
+:::
+:::
+
+---
+
+## [Show]{style="color: green"}, [don't tell.]{style="color: red"} 
+
+::: columns
+::: {.column width="50%" .fragment fragment-index=2}
+[Guido's eyes lit up as the terminal finally executed without errors. A wide grin spread across his face. He jumped up from his chair, fists raised in triumph. "Yes!" he exclaimed, as he savored the moment of triumph with a deep, contented sigh.]{style="color: green"}
+:::
+::: {.column width="50%" .fragment fragment-index=1}
+[Guido was happy because he solved the bug on his code.]{style="color: red"}
+:::
+:::
+
+---
+
+## Presentation tools
+
+* Classic: PowerPoint
+* **"Show don't tell"** tools: 
+  * quarto (+ pyodide)
+  * jupyter + RISE
+  * streamlit
+* Other: canvas, revealjs, prezi
+
+---
+
+
+## Flujo de decisión
+::: { .incremental }
+
+* **PowerPoint**: Presentación sin código de un solo uso
+* **Quarto**: Charlas a partir de documentos relacionados (libros, artículos)
+* **Jupyter + RISE**: Talleres o clases. Ejecutar código es importante
+* **html+webapps**: Presentaciones personalizadas/experimentales
+:::
+
+
+---
+
+## { .custom-slide }
+::: columns
+::: {.column width="10%"}
+&#32;
+:::
+::: {.column width="70%"}
+**Regla de Storytelling #6:** 
+
+Elige la herramienta que te permita
+
+[explicar menos]{style="color:red;" .fragment} y [mostrar más]{style="color:green;" .fragment}
+:::
+:::
+
+---
+
+## 
+
+::: columns
+::: {.column width="60%"}
+&#32;<br><br>
+[quarto]{style="font-size: 1em; color: gray"}
+
+Un sistema de publicación científica y técnica de código abierto.
+
+Se centra en el markdown científico, documentos dinámicos e interactivos basados en código (Python/R/Julia).
+:::
+::: {.column width="40%"}
+![https://quarto.org/](images/quarto/quarto2.png)
+:::
+:::
+
+---
+
+## 
+
+::: columns
+::: {.column width="40%"}
+[Código: example.qmd]{style="font-size: 0.5em; color: gray"}
+
+```
+---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::
+```
+:::
+
+::: {.column width="60%"}
+[Slides: example.html]{style="font-size: 0.5em; color: gray"}
+
+```{=html}
+<iframe width=600 height=400 src="quarto_min.html"></iframe>
+```
+:::
+:::
+
+
+---
+
+## 
+
+```{pyodide-python}
+saludo = "Hola"
+nombre = "mundo"
+print(saludo + " " + nombre)
+```
+
+&#32;<br><br>
+
+```{pyodide-python}
+# ¿Que vino primero, el huevo o la gallina?
+sorted(['🥚','🐔'])
+```
+
+---
+
+Part 1 - Block 4: Visualization Quick Wins 2  
+Visualization Strikes Back
