@@ -1,5 +1,6 @@
 clean:
-	rm *.html
+	rm -f *.html
+	rm -rf *-*_files/
 
 all: r11 r12 r13 r14 r21 r22 r23 r24
 
