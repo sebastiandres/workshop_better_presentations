@@ -23,7 +23,7 @@ format:
 
 &#32; 
 
-::: {.notes}open
+::: {.notes}
 Change from (800, 600) for 4x3 or (1245, 700) for 16x9
 Key points:
 - Workshop not talks
