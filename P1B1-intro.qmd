@@ -36,8 +36,30 @@ Key points:
   - Part 1 - Block 2: Public Speaking
 
 TODO:
-Select the content for the BAD presentation.
-Create the slides for the BAD presentation.
+- Select the content for the BAD presentation.
+- Create the slides for the BAD presentation.
+- Pass to 2 columns (why we make presentations, what types of presentations)
+- Create 3 columns for the workshop structure
+- Add numbers to the workshop figure
+- Improve the graph of "my story in 4 graphics"
+- MAY BE USE THE shape of Chile in some graph...
+- Name your favorite story (book-movie-game). 
+- Why do we spend so much time & money to consume stories? brains are adicted to it, just like chocolate cake! It just tickles the right nerves.
+- Stories are sticky. Stories move us. Stories are easy to remember (more than facts, more than numbers, more than rules) -> Pnemotecnics tricks are memorization rules that are based on stories (images).
+- We like to be entertained, we like to laugh, to be moved. We like some change (grow).
+
+
+Programación en Python:
+Habilidad común y transferible a varias industrias.
+En transformación por avances de Inteligencia Artificial.
+
+Data Storytelling:
+Habilidad  poco usual y transferible a varias industrias.
+Indiferente a avances de Inteligencia Artificial.
+
+Python + Data Storytelling = Combo Ganador
+
+Data Storytelling work because stories, language, is the natural medium for humans.
 :::
 
 ---

@@ -23,6 +23,37 @@ format:
 
 &#32; 
 
+::: {.notes}
+MAYBE fusion B3 and B4. Content:
+- Why visualizations? -> DataSaurus & Python Logo
+- When visualizations?
+- The story in your data
+- Activity 1: What stories can we find in this data?
+- Matplotlib journey (adviced course)
+- Exploratory data viz vs explanatory data viz
+- Things to learn:
+  - Themes and colors (palettes)
+  - Fig and ax
+  - Opacity & layers
+  - Texts, titles and subtitles
+  - Arrows and annotations
+- Activity 2: Improve this plot.
+- Top 8 graphs frequently used
+- Activity 3: What is the best plot for this story?
+
+- Help yourself: allow to make drop in replacements in data. You'll reuse your code more.
+
+Data ideas for plots:
+- Solar generation by Chile
+- Copper production
+- Copper price
+- Data saurio y python logo but with stats
+
+:::
+
+
+
+
 ---
 
 ## { .custom-title }
@@ -165,3 +196,29 @@ Your 2 best friends.
 ---
 
 Code comparison
+
+---
+
+## Exploratory Viz != Explanatory Viz
+
+Craft what YOU want your audience to see.
+
+Avoid exploratory graphs on your presentation.
+
+---
+
+## Data Exploratory Viz
+
+![](images/P1B2/looker.png){width=400 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+
+. . .
+
+![](images/P1B2/tableau.png){.absolute top=125 left=25 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+. . .
+
+![](images/P1B2/pbi.png){.absolute top=150 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+. . .
+
+[Too many options! <br> User **cannot** be responsible of finding your insights.]{ style="background-color: #fff" }

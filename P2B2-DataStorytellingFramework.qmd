@@ -55,6 +55,8 @@ Brandon Sanderson's storytelling framework:
 * **Progress**: [Is the story advancing towards the promise?]{.fragment .fragment-index-2}
 * **Payoff**: [Did you fulfill or break the promise?]{.fragment .fragment-index-3}
 
+Payoff != Ending.
+Payoff is how satisfactory is the ending of the story.
 ---
 
 ## Example: Star Wars IV

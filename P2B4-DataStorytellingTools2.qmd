@@ -23,6 +23,13 @@ format:
 
 &#32; 
 
+::: {.notes}
+Key slides:
+- ...
+- BAD presentation remade.
+
+:::
+
 ---
 
 ## { .custom-title }

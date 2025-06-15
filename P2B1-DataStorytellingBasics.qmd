@@ -23,6 +23,31 @@ format:
 
 &#32; 
 
+::: {.notes}
+“Emplear datos, imágenes y narrativa para convencer a la audiencia y persuadirlos de actuar”
+
+
+Key content:
+- Why Data Storytelling? (Practical Storytelling)
+- 5 Data Storytelling Principles
+- You cant tell people what to feel. Make them feel it, make it obvious.
+- You cant tell people what to think. Make a crumb path for them to get to the discovery. (Example: X means Y. (people reacts to it). I'm from Y, and I have experienced X. So I think if Y, then X.)
+- Make people work for their meal. "Ikea effect!"
+- Don't make yourself replaceable. You "dance" with your presentation. It's a complement.
+- Stories are inevitable, but not predictable. Just like life. You don't know what will happen, but when it happens, it makes sense. 
+- You can't tell all stories at the same time. Pick one hero, one villain. 1 perspective. (This links to visualization) 
+- Objective of all stories is change. Something changes, irrevocably. A story without change is dull, is a "semblanza", a description. 
+- Practical Storytelling is not putting memes on your slide deck. Dont be the meme guy. Avoid common places - reuse them smartly. 
+
+ToDo:
+
+:::
+
+
+
+
+
+
 ---
 
 ## { .custom-title }
@@ -35,7 +60,7 @@ format:
 
 ## { .custom-title }
 ::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
-[Part 1 - Block 2]{style="font-size: 20px; margin: 0px;"} <br>
+[Part 2 - Block 1]{style="font-size: 20px; margin: 0px;"} <br>
 [Data Storytelling Basics]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
 :::
 
@@ -225,32 +250,6 @@ This manifests in two ways:
 ---
 
 ## Principle #5
-
----
-
-## Exploratory Viz != Explanatory Viz
-
-Craft what YOU want your audience to see.
-
-Avoid exploratory graphs on your presentation.
-
----
-
-## Data Exploratory Viz
-
-![](images/P1B2/looker.png){width=400 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
-
-. . .
-
-![](images/P1B2/tableau.png){.absolute top=125 left=25 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
-
-. . .
-
-![](images/P1B2/pbi.png){.absolute top=150 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
-
-. . .
-
-[Too many options! <br> User **cannot** be responsible of finding your insights.]{ style="background-color: #fff" }
 
 ---
 
