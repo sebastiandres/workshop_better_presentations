@@ -24,7 +24,6 @@ format:
 &#32; 
 
 ::: {.notes}
-MAYBE fusion B3 and B4. Content:
 - Why visualizations? -> DataSaurus & Python Logo
 - When visualizations?
 - The story in your data
@@ -76,19 +75,58 @@ Data ideas for plots:
 Let's see some quick wins and code before the Q&A and coffee break.
 
 ---
+## Visualization is never "agnostic/pain/neutral"
+
+---
+
+## Select the story within your data
+
+Be fair. Be truthful. But beware you're not neutral, you are showing part of the data in a given way.
+
+---
+
+## Exploratory Viz != Explanatory Viz
+
+Craft what YOU want your audience to see.
+
+Avoid exploratory graphs on your presentation.
+
+---
+
+## Data Exploratory Viz
+
+![](images/P1B2/looker.png){width=400 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
+
+. . .
+
+![](images/P1B2/tableau.png){.absolute top=125 left=25 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+. . .
+
+![](images/P1B2/pbi.png){.absolute top=150 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
+
+. . .
+
+[Too many options! <br> User **cannot** be responsible of finding your insights.]{ style="background-color: #fff" }
+
+---
+
+Never use exploratory visualizations on a presentation!
+
+---
 
 ## Simple ideas with high impact
 
-* Use common plots
+* Use simpler plots
+* Mis-en-place
 * The forbidden moves
 * Develop a progression
 * Annotate your plots
-* Use simpler plots
 * Use "better" colors
 
 ---
 
-## Use common plots
+## Use simpler plots
 
 Avoid using complex / custom plots. You can most likely use the following 8 plots:
 
@@ -116,6 +154,7 @@ Avoid using complex / custom plots. You can most likely use the following 8 plot
 ---
 
 ## Example #1
+
 [AFTER]
 
 --- 
@@ -199,26 +238,4 @@ Code comparison
 
 ---
 
-## Exploratory Viz != Explanatory Viz
 
-Craft what YOU want your audience to see.
-
-Avoid exploratory graphs on your presentation.
-
----
-
-## Data Exploratory Viz
-
-![](images/P1B2/looker.png){width=400 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)"}
-
-. . .
-
-![](images/P1B2/tableau.png){.absolute top=125 left=25 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
-
-. . .
-
-![](images/P1B2/pbi.png){.absolute top=150 left=50 width=800 style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);"}
-
-. . .
-
-[Too many options! <br> User **cannot** be responsible of finding your insights.]{ style="background-color: #fff" }

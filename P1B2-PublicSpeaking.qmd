@@ -73,6 +73,135 @@ REGULAR TIPS:
 
 ---
 
+## Public speaking
+
+Is very different from regular speaking:
+- Unidirectional/Hierarchical
+- One versus all
+
+---
+
+## Why doing it?
+#### Public Speaking
+
+- Share & network
+- Stand out
+- Learn and defeat procastination
+
+---
+
+## Public speaking
+
+::: {.callout-tip title="Secret #0" .fragment}
+Having fears/doubts is sign of a healthy brain
+:::
+
+---
+
+[PIT OF SNAKES IMAGE]
+
+---
+
+## Public speaking
+### Secrets of the trade #1
+
+Exercise:
+
+- If your name starts with a vowel, raise your left hand.
+- If your name ends in a vowel, raise your right hand.
+
+---
+
+::: {.callout-tip title="Secret #1" .fragment}
+As a speaker you **command** the room!  
+Control the energy!  
+:::
+
+---
+
+## Public speaking
+### Secrets of the trade #2
+
+In case of emergency, your reaction will be mirrored by the audience.
+
+::: {.callout-tip title="Secret #2" .fragment}
+In case of emergency, your reaction will be mirrored by the audience.
+:::
+
+---
+
+## Public speaking
+### Secrets of the trade #3
+
+::: {.callout-tip title="Secret #3" .fragment}
+Most people have empathy and want you to succeed.
+:::
+
+---
+
+## Public speaking
+### Secrets of the trade #4
+
+::: {.callout-tip title="Secret #4" .fragment}
+People's reactions are easy to predict.
+:::
+
+---
+
+## Public speaking
+### Secrets of the trade #5
+
+::: {.callout-tip title="Secret #5" .fragment}
+Humor is great tool to sync a room.
+:::
+
+::: {.callout-tip title="Secret #5 B" .fragment}
+Humor works better when is not expected.
+:::
+
+---
+
+## Public speaking
+
+::: {.callout-tip title="Secret #6" .fragment}
+Formula to be memorable: simplicity meets excentricity.  
+
+Use as little colors and text as possible, but make it reflect your personality.
+:::
+
+---
+
+##
+
+What's more memorable: left or right?
+
+[OLD THINGS] vs [NEW BLAND THINGS]
+
+---
+
+## Own your weird
+
+Don't be like everybody else. Dare to leave your mark. 
+Use your preferred colors. Be inspired by paintors.
+Put as many dinosaurs on the background as you want. 
+
+Book rec #1: Own your weird, by Jason X.
+
+---
+
+
+## The great filter
+
+::: {.callout-tip title="Secret #6" .fragment}
+We are only as good as our communication skills. 
+:::
+
+---
+
+[IMAGE OF A FILTER NEEDED]
+
+---
+
 ## Presentation is communication
 
 ![](images/P1B1/ppt_schema.png){fig-align="center"}
@@ -128,7 +257,7 @@ Bad news (for the presenter):
 ##### Presentation is communication
 ### The message
 
-Message should be tailored [**to the specific audience**]{.fragment}
+Message should be tailored from [**a specific speaker**]{.fragment} to [**the specific audience**]{.fragment}
 
 [Data Storytelling helps selecting the best **content** and **format** to make the message clear and engaging]{.fragment}
 
@@ -142,10 +271,3 @@ There's more than just content:
 {{< video https://www.youtube.com/embed/8S0FDjFBj8o >}}
 
 How to sound smart in your TEDx Talk | Will Stephen | TEDxNewYork
-
----
-
-## Next:
-
-Part 1 - Block 3: Visualization Quick Wins
-

@@ -44,10 +44,6 @@ ToDo:
 :::
 
 
-
-
-
-
 ---
 
 ## { .custom-title }
@@ -60,7 +56,7 @@ ToDo:
 
 ## { .custom-title }
 ::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
-[Part 2 - Block 1]{style="font-size: 20px; margin: 0px;"} <br>
+[Part 2 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
 [Data Storytelling Basics]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
 :::
 
@@ -75,11 +71,9 @@ ToDo:
 * No chance
 :::
 ::: {.column width="70%" .fragment}
-**Storytelling principle #1:** 
-
 Never give away the ending!
 
-Always raise the stakes! 
+Always raise the stakes!
 :::
 :::
 
@@ -97,8 +91,6 @@ Always raise the stakes!
 ::: {style="position: absolute; left: 100px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
 [Why Data Storytelling?]{style="font-size: 60px; margin: 0px"} <br>
 :::
-
----
 
 ---
 
@@ -147,6 +139,8 @@ Image by sketplanation
 Endings are the most important part of the story (and the presentation).
 
 The ending is what gets remembered. It should tie everything together.
+
+Work on your final slides - don't leave it to change. Skip the middle slides if needed, never the last ones.
 :::
 
 ---
@@ -168,7 +162,9 @@ How to make millions of people share statistics on social media?
 ---
 
 ::: {.callout-tip title="Example #2: What did we learn?"}
-[Statistics get ignored.]{.fragment} [Emotions are remembered.]{.fragment} [Stories get shared.]{.fragment}
+[Statistics get ignored.]{.fragment}  
+[Emotions are remembered.]{.fragment}  
+[Stories get shared.]{.fragment}
 :::
 
 ---
@@ -193,14 +189,6 @@ Using storytelling **tricks** to create presentations that will be **remembered*
 Emotions create actions
 :::
 
----
-
-## The great filter
-
-We are only as good as our communication skills. 
-
-[IMAGE OF A FILTER NEEDED]
-
 --- 
 
 ## { .custom-section }
@@ -217,6 +205,14 @@ We are only as good as our communication skills.
 
 [Never give away the ending!]{.fragment}
 
+[This is called "Narrative debt"]{.fragment}
+
+---
+
+Examples of narrative debt:
+
+...
+
 ---
 
 ## Principle #2
@@ -225,7 +221,10 @@ We are only as good as our communication skills.
 
 [Simple is always better.]{.fragment}
 
-[Don't try to look smart by using fancy words and too many details. Smart peopla explain complex ideas in simple ways.]{.fragment}
+[Don't try to look smart by using fancy words and too many details.  
+Smart people are those who can explain complex ideas in simple ways, not who knows more jargon]{.fragment}
+
+---
 
 This manifests in two ways:
 
@@ -237,52 +236,111 @@ This manifests in two ways:
 
 ## Principle #3
 
-[Show, don't tell.]{.fragment}
+Breadcrumbs / IKEA effect
 
-- Dont say "this is the best": show why it could be the best.
-- Dont say the code is clean: show the code.
-- People don't want to be spoon-fed nor told what to think: find the right balance.
+Make people work for their meal, but never too much. 
+
+---
+
+IKEA effect: we love more things we have put effort into.
+
+Breadcrumbs: people don't like to be spoonfed nor ignored. Something in the middle.
 
 ---
 
 ## Principle #4
 
+Your first draft is always going to be terrible.
+
+---
+
+##
+::: columns
+::: {.column width="60%"}
+&#32;<br><br>
+
+* Use AI chatbots for: 
+  * Analogies and examples
+  * Prompts to create better images!
+* Don't search for images, create them!
+:::
+::: {.column width="40%" .fragment}
+![](images/ai/choice.jpeg){fig-align="center"}
+:::
+:::
+
+
 ---
 
 ## Principle #5
 
+[Show]{style="color: green"}, [don't tell.]{style="color: red"}
+
+
+[
+- Dont say "this is the best": show why it could be the best.
+- Dont say the code is clean: show the code.
+]{.fragment}
+
 ---
 
-## { .custom-slide }
+## [Show]{style="color: green"}, [don't tell.]{style="color: red"} 
+
 ::: columns
-::: {.column width="10%"}
-&#32;
+::: {.column width="50%" .fragment fragment-index=2}
+[Guido's eyes lit up as the terminal finally executed without errors. A wide grin spread across his face. He jumped up from his chair, fists raised in triumph. "Yes!" he exclaimed, as he savored the moment of triumph with a deep, contented sigh.]{style="color: green"}
 :::
-::: {.column width="70%"}
-**Storytelling principle #2:** 
-
-Details are important, 
-
-[but not **all** details are important.]{.fragment}
+::: {.column width="50%" .fragment fragment-index=1}
+[Guido was happy because he solved the bug on his code.]{style="color: red"}
 :::
 :::
 
 ---
 
-## Data Explanatory Viz
+## The framework
 
-So many good python libraries!
+Brandon Sanderson's storytelling framework:  
 
-* Classic: Matplotlib
-* Rising starts: Seaborn, Plotly, Altair
-* Other: bokeh, plotnine, pygal and more!
+* **Promise**: [What is the story about?]{.fragment .fragment-index-1}
+* **Progress**: [Is the story advancing towards the promise?]{.fragment .fragment-index-2}
+* **Payoff**: [Did you fulfill or break the promise?]{.fragment .fragment-index-3}
 
-. . . 
+Payoff != Ending.
+Payoff is how satisfactory is the ending of the story.
 
-::: {style="text-align:center"}
-Pick one and master it.
-Matplotlib + seaborn is a killer combo.
+---
+
+## Example: Star Wars IV
+
+::: columns
+::: {.column width="20%"}
+![](images/P1B3/poster_a_new_hope.png){fig-align="center" width="100%"}
 :::
+::: {.column width="80%"}
+* **Promise**: [Rebels fight back against the Empire.]{.fragment .fragment-index-1}
+* **Progress**: [Luke develops his skills as a Jedi.]{.fragment .fragment-index-2}
+* **Payoff**: [The death star explodes!]{.fragment .fragment-index-3}
+:::
+:::
+
+---
+
+## Example: Jurassic Park I
+
+::: columns
+::: {.column width="20%"}
+![](images/P1B3/poster_jurassic_park.png){fig-align="center" width="100%"}
+:::
+::: {.column width="80%"}
+* **Promise**: [Accidents in a park with dinosaurs.]{.fragment .fragment-index-1}
+* **Progress**: [Accidents get progressively worse.]{.fragment .fragment-index-2}
+* **Payoff**: [Protagonists survive but dinasaurs overrun the park.]{.fragment .fragment-index-3}
+:::
+:::
+
+---
+
+## How does this applies to data and slides?
 
 ---
 
@@ -307,84 +365,7 @@ Don't share numbers. Share a story.
 
 ---
 
-## { .custom-section }
-
-[Data Storytelling]{style="font-size: 1em"}
-
-[Tool #2: AI]{style="font-size: 2em"}
-
----
-
-## { .custom-slide }
-::: columns
-::: {.column width="10%"}
-&#32;
-:::
-::: {.column width="70%"}
-**Storytelling principle #3:** 
-
-Your first draft is always going to be terrible.
-:::
-:::
-
----
-
-##
-::: columns
-::: {.column width="60%"}
-&#32;<br><br>
-
-* Use AI chatbots for: 
-  * Analogies and examples
-  * Prompts to create better images!
-* Don't search for images, create them!
-:::
-::: {.column width="40%" .fragment}
-![](images/ai/choice.jpeg){fig-align="center"}
-:::
-:::
-
----
-
-## { .custom-slide }
-::: columns
-::: {.column width="10%"}
-&#32;
-:::
-::: {.column width="70%"}
-**Storytelling principle #4:** 
-
-[Show]{style="color: green"}, [don't tell.]{style="color: red"}
-:::
-:::
-
----
-
-## [Show]{style="color: green"}, [don't tell.]{style="color: red"} 
-
-::: columns
-::: {.column width="50%" .fragment fragment-index=2}
-[Guido's eyes lit up as the terminal finally executed without errors. A wide grin spread across his face. He jumped up from his chair, fists raised in triumph. "Yes!" he exclaimed, as he savored the moment of triumph with a deep, contented sigh.]{style="color: green"}
-:::
-::: {.column width="50%" .fragment fragment-index=1}
-[Guido was happy because he solved the bug on his code.]{style="color: red"}
-:::
-:::
-
----
-
-## Presentation tools
-
-* Classic: PowerPoint
-* **"Show don't tell" tools: quarto, jupyter + RISE, streamlit**
-* Other: canvas, revealjs, prezi
-
----
-
-## Recommended reading
-::: columns
-::: {.column width="50%"}
-**Storytelling**
+## Recommended reading for **Storytelling**
 
 * Storyworthy, Matthew Dicks
 * Made to Stick, Chip Heath and Dan Heath
@@ -392,15 +373,10 @@ Your first draft is always going to be terrible.
 * The Science of Storytelling – Will Storr
 * A Swim in a Pond in the Rain – George Saunders
 * Steering the Craft – Ursula K. Le Guin
-* Into the Woods – John Yorke
-* This Craft of Verse – Jorge Luis Borges
-* Meander, Spiral, Explode – Jane Alison
-* Several Short Sentences About Writing – Verlyn Klinkenborg
-* Conflict & Suspense – James Scott Bell
-:::
 
-::: {.column width="50%"}
-**Data Storytelling**
+---
+
+## Recommended reading for **Data Storytelling**
 
 * Storytelling with Data, Cole Nussbaumer Knaflic
 * The Visual Display of Quantitative Information, Edward Tufte
@@ -409,5 +385,3 @@ Your first draft is always going to be terrible.
 * The Truthful Art, Alberto Cairo
 * The Functional Art, Alberto Cairo
 * Matplotlib Journey (https://www.matplotlib-journey.com/), Yann Holtz and Joseph Barbier
-:::
-:::

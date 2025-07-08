@@ -43,7 +43,7 @@ TODO:
 - Add numbers to the workshop figure
 - Improve the graph of "my story in 4 graphics"
 - MAY BE USE THE shape of Chile in some graph...
-- Name your favorite story (book-movie-game). 
+- Name your favorite story (book-movie-game)
 - Why do we spend so much time & money to consume stories? brains are adicted to it, just like chocolate cake! It just tickles the right nerves.
 - Stories are sticky. Stories move us. Stories are easy to remember (more than facts, more than numbers, more than rules) -> Pnemotecnics tricks are memorization rules that are based on stories (images).
 - We like to be entertained, we like to laugh, to be moved. We like some change (grow).
@@ -99,7 +99,6 @@ This presentation was done with quarto!
 * **Coffee Break**: 15 minutes
 * **Part 2**: 90 minutes
 
-
 ---
 
 ## Data Storytelling
@@ -107,7 +106,7 @@ This presentation was done with quarto!
 Data Storytelling:  
 Tricks and tools to deliver better (data) presentations.
 
-I prefer to say "Practical Storytelling" because it applies to more than just data.
+I prefer to say "Practical Storytelling" because it applies to more than just presentation or just data.
 
 ---
 
@@ -127,14 +126,12 @@ I prefer to say "Practical Storytelling" because it applies to more than just da
 
 ## What types of talks do you give?
 
-- Party small talk
+- Small talk
 - Ted talk
-- Scientific talk
 - Work presentation
 - Conference talk
 - Tutorial
 - Workshop
-- ...
 
 
 ---
@@ -174,22 +171,19 @@ I prefer to say "Practical Storytelling" because it applies to more than just da
 ::: columns
 ::: {.column width="50%"}
 * Intro & Setting Expectations
-* Practical Storytelling and Public Speaking
+* Public Speaking
+* Storytelling crash course
 * Visualization Quick Wins
-* Visualization Quick Wins - The revenge!
 * Q&A
 :::
 ::: {.column width="50%"}
-* Storytelling crash course
+* More visualization Quick Wins!
 * A Practical Storytelling Framework
 * Practical Storytelling tools 1
 * Practical Storytelling tools 2
 * Q&A
 :::
 :::
-
----
-
 
 ---
 

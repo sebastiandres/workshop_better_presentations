@@ -1,0 +1,423 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    controls: true
+    menu: true
+    slide-number: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: true
+    toc: false
+    center: true
+    preview-links: false
+    theme:
+        - simple
+        - style/style_background.scss
+filters: 
+  - pyodide
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 500px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Python and Data Storytelling <br> to create and deliver better presentations]{style="font-size: 40px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Part 2 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
+[Data Storytelling Tools]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+:::
+
+---
+
+## Important!
+
+Now you know principles and rules for Effective Storytelling.  
+
+Choose the most suitable weapon for your objective!
+
+
+---
+
+## Presentation tools
+
+* Classic: PowerPoint
+* **"Show don't tell"** tools: 
+  * quarto (+ pyodide)
+  * jupyter + RISE
+  * streamlit
+* Mixed bag: canvas, revealjs, prezi
+
+---
+
+
+## Personal opinion
+::: { .incremental }
+
+* **PowerPoint**: Discardable presentation or mandatory format.
+* **Quarto**: Conference talks. Might need to execute code.
+* **Jupyter + RISE**: Workshops. Code to execute must be easy to modify.
+* **html+webapps**: Experimental presentations.
+:::
+
+---
+
+## Quarto
+
+---
+
+::: columns
+::: {.column width="60%"}
+&#32;<br><br>
+[quarto]{style="font-size: 1em; color: gray"}
+
+An open-source scientific and technical publishing system.
+
+Focus on scientific markdown, dynamic & interactive documents based on code (Python/R/Julia).
+:::
+::: {.column width="40%"}
+![https://quarto.org/](images/quarto/quarto2.png)
+:::
+:::
+
+:::{.notes}
+Quarto is a project from POSIT - they are actually on one of the booths, go get some stickers! You create a plain markdown, so the files and repos are clean and easy to maintain. You can create pretty much anything: Books, websites, and presentations. It’s quite incredible. This presentation has been made in quarto, BTW. For presentations, the markdown file is rendered into a html page with the revealjs library. It’s just a html webpage, so you can share it around and people should be able to open it without to much trouble - or convert it to pdf. 
+:::
+
+---
+
+## Quarto crash course
+
+1. Choose your quarto format (revealjs)
+2. Set up files
+3. Render
+4. Iterate
+
+---
+
+## 
+
+::: columns
+::: {.column width="40%"}
+[Code: example.qmd]{style="font-size: 0.5em; color: gray"}
+
+```
+---
+title: "Habits"
+author: "John Doe"
+format:
+  revealjs:
+    transition: fade
+    theme: black
+    toc: true
+    center: true
+---
+
+## Getting up
+
+- Turn off alarm
+- Get out of bed
+
+---
+
+## Going to sleep 
+::: { .incremental }
+
+- Get in bed
+- Count sheep
+
+:::
+```
+:::
+
+::: {.column width="60%"}
+[Slides: example.html]{style="font-size: 0.5em; color: gray"}
+
+```{=html}
+<iframe width=600 height=400 src="quarto_min.html"></iframe>
+```
+:::
+:::
+
+---
+
+## The key extension: pyodide-python
+
+(Check)
+```bash
+quarto install pyodide
+```
+
+---
+
+```{pyodide-python}
+saludo = "Hello"
+nombre = "World"
+print(saludo + " " + nombre)
+```
+
+&#32;<br><br>
+
+```{pyodide-python}
+# What's first, the egg, the chicken, or the dinosaur?
+sorted(['🥚','🐔'])
+```
+
+---
+
+## Advice from experience
+
+- Don't expect "pixel precision" on text and figure positions. 
+- Tradeoff between simplicity and control
+- Knowing a bit of html goes a long way
+
+---
+
+## A typical "conference" talk
+
+- Splash screen
+- Sections
+- Columns
+- Images & videos
+- Embeded Pages
+  
+---
+
+## Spash Screen
+
+- Look for inspiration for colors and images on the conference website. They hire design teams for a reason!
+
+(Imagen con algunas conversiones de sitio a ppt)
+
+---
+
+## Sections
+
+Remember to create sections and stablish a progression sense.
+
+# `#` Largest title (independent slide)
+
+## `##` Title of slide (H2 - can be empty)
+### `###` Title of slide (H2 - can be empty)
+#### `####` Title of slide (H2 - can be empty)
+##### `#####` Title of slide (H2 - can be empty)
+
+---
+
+```
+## columns
+::: columns
+::: {.column}
+Column 1
+:::
+::: {.column}
+Column 2
+:::
+:::
+```
+
+(line break)
+
+::: columns
+::: {.column}
+Column 1
+:::
+::: {.column}
+Column 2
+:::
+:::
+
+---
+
+```
+## columns
+::: columns
+::: {.column style="color=red"}
+Column 1
+:::
+::: {.column}
+Column 2
+:::
+:::
+```
+
+(line break)
+
+::: columns
+::: {.column style="color=red"}
+Column 1
+:::
+::: {.column}
+Column 2
+:::
+:::
+
+---
+
+## Images
+
+Markdown  
+```
+![](ble/ble.jpg)
+```
+
+Html  
+```
+<a ><>
+```
+
+---
+
+## Python
+
+* `python`
+* `{python}`
+* `{pyodide-python}`
+
+
+---
+
+
+## `python`
+
+Just a regular block of code, highlighted with python syntax.
+
+::: columns
+::: { .column }
+```code
+°°°python
+def fib(a,b):
+  return a+b
+
+x = fib(2,2)
+print(x)
+°°°
+```
+:::
+::: { .column }
+```python
+def fib(a,b):
+  return a+b
+
+x = fib(2,2)
+print(x)
+```
+:::
+:::
+
+---
+
+## `{python}`
+
+Executes the code when rendering on a python environment, and shows the results. 
+It's not interactive, but it's 100% python!
+
+::: columns
+::: { .column }
+```code
+°°°{python}
+def fib(a,b):
+  return a+b
+
+x = fib(2,2)
+print(x)
+°°°
+```
+:::
+::: { .column }
+```{python}
+def fib(a,b):
+  return a+b
+
+x = fib(2,2)
+print(x)
+```
+:::
+:::
+
+---
+
+## `{pyodide-python}`
+
+It's interactive using pyscript (javascript port).  
+Setting up non-standard libraries can be tricky.
+
+::: columns
+::: { .column }
+```code
+°°°{pyodide-python}
+def fibonacci(a,b):
+  return a+b
+x = fib(2,2)
+print(x)
+°°°
+```
+:::
+::: { .column }
+```{pyodide-python}
+def fib(a,b):
+  return a+b
+
+x = fib(2,2)
+print(x)
+```
+:::
+:::
+
+
+---
+
+
+## pyodide considerations
+
+Must add 2 lines to document configuration:
+
+```code
+filters: 
+  - pyodide
+```
+
+It's great to demo a library or function, and change some parameters while presenting.  
+
+It'st not a programming environment: large blocks or codes or complex libraries might break.
+
+---
+
+## Export to pdf
+
+The result is a presentation in html format. To convert to pdf, do X-
+
+---
+
+## Advice
+
+- Change style globally using a style.css
+- Download presentations that you like and learn the tricks
+
+---
+
+
+
+## Activity:
+
+Online version available? Install might take time...
+
+---
+
+## Next: 
+
+Part 1 - Block 4: Visualization Quick Wins 2   
+Visualization Strikes Back

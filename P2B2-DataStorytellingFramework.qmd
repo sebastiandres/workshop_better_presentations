@@ -35,7 +35,7 @@ format:
 
 ## { .custom-title }
 ::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
-[Part 1 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
+[Part 1 - Block 2]{style="font-size: 20px; margin: 0px;"} <br>
 [Data Storytelling Framework]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
 :::
 
@@ -45,47 +45,6 @@ format:
 
 ![](images/P1B3/data_storytelling_canvas.png){fig-align="center" width="50%"}
 
----
-
-## The framework
-
-Brandon Sanderson's storytelling framework:  
-
-* **Promise**: [What is the story about?]{.fragment .fragment-index-1}
-* **Progress**: [Is the story advancing towards the promise?]{.fragment .fragment-index-2}
-* **Payoff**: [Did you fulfill or break the promise?]{.fragment .fragment-index-3}
-
-Payoff != Ending.
-Payoff is how satisfactory is the ending of the story.
----
-
-## Example: Star Wars IV
-
-::: columns
-::: {.column width="20%"}
-![](images/P1B3/poster_a_new_hope.png){fig-align="center" width="100%"}
-:::
-::: {.column width="80%"}
-* **Promise**: [Rebels fight back against the Empire.]{.fragment .fragment-index-1}
-* **Progress**: [Luke develops his skills as a Jedi.]{.fragment .fragment-index-2}
-* **Payoff**: [The death star explodes!]{.fragment .fragment-index-3}
-:::
-:::
-
----
-
-## Example: Jurassic Park I
-
-::: columns
-::: {.column width="20%"}
-![](images/P1B3/poster_jurassic_park.png){fig-align="center" width="100%"}
-:::
-::: {.column width="80%"}
-* **Promise**: [Accidents in a park with dinosaurs.]{.fragment .fragment-index-1}
-* **Progress**: [Accidents get progressively worse.]{.fragment .fragment-index-2}
-* **Payoff**: [Protagonists survive but dinasaurs overrun the park.]{.fragment .fragment-index-3}
-:::
-:::
 
 ---
 

@@ -42,48 +42,10 @@ Key slides:
 
 ## { .custom-title }
 ::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
-[Part 2 - Block 4]{style="font-size: 20px; margin: 0px;"} <br>
-[Data Storytelling Tools 2 - The Revenge of the tools]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+[Part 2 - Block 5]{style="font-size: 20px; margin: 0px;"} <br>
+[Conclusion]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
 :::
 
 ---
 
-## 
-
-::: columns
-::: {.column width="40%"}
-&#32;<br><br>
-
-[Jupyter + RISE]{style="font-size: 1em; color: gray"}
-
-Extensión de Jupyter notebook/lab para transformar un notebooks en slides de revealjs.
-:::
-::: {.column width="60%"}
-![https://rise.readthedocs.io/](images/rise/rise.png)
-:::
-:::
-
----
-
-[Jupyter + RISE]{style="font-size: 1em; color: gray"}
-
-<img style="width:80%;" src="./images/rise/basic_usage.gif">
-
----
-
-## 
-
-[HTML & webapps]{style="font-size: 1em; color: gray"}
-
-Usa la herramienta adecuada a lo que quieras enseñar.  
-
-Innovar es llamativo.
-
-<img style="width:80%;" src="./images/streamlit/pyconchile2021.gif">
-
----
-
-## Next:
-
-Q & A
-
+## Conclusion
