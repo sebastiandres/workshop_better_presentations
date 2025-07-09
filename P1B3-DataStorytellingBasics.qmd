@@ -109,13 +109,22 @@ the first human technology
 
 ---
 
+What's the main plot of:
+
+- Cinderella, The beauty and the beast, Lillo & Stich, ...
+- Jurassic Park, Star Wars, Back to the future, ...
+
+[**Stories are easy to remember**]{.fragment}
+
+[A presentation **with stories** will be easier to remember]{.fragment}
+
+---
+
 ## The hackable brain
 
 The main point of Data Storytelling is that brains are [**very predictable**]{.fragment}.
 
 [Storytellers know and exploit this.]{.fragment}
-
-[IMAGE OF BRAIN NEEDED]
 
 ---
 
@@ -276,11 +285,10 @@ Your first draft is always going to be terrible.
 
 [Show]{style="color: green"}, [don't tell.]{style="color: red"}
 
-
-[
-- Dont say "this is the best": show why it could be the best.
-- Dont say the code is clean: show the code.
-]{.fragment}
+::: {.incremental}
+- Don't say "this is the best": show why it's be the best.
+- Don't say the code is clean: show the code.
+:::
 
 ---
 

@@ -9,10 +9,10 @@ format:
     controls: true
     transition: fade
     auto-stretch: false
-    embed-resources: false
+    embed-resources: true
     toc: false
     center: true
-    slide-number: false
+    slide-number: true
     preview-links: false
     theme:
         - simple
@@ -80,6 +80,8 @@ Data Storytelling work because stories, language, is the natural medium for huma
 
 ---
 
+## 2 Notes:
+
 ::: {.callout-warning title="Note #1" .fragment}
 This presentation has workshop format - not talk format.
 
@@ -101,15 +103,15 @@ This presentation was done with quarto!
 
 ---
 
-## Data Storytelling
+## About the workshop
 
-Data Storytelling:  
-Tricks and tools to deliver better (data) presentations.
+This contains my very opinated view on **Data Storytelling**.
 
-I prefer to say "Practical Storytelling" because it applies to more than just presentation or just data.
+Data Storytelling: Tricks and tools to deliver better (data) presentations.
+
+I prefer to say "Practical Storytelling" because it applies to more than just presentation or  data.
 
 ---
-
 
 ## Why do we make presentations?
 
@@ -168,22 +170,25 @@ I prefer to say "Practical Storytelling" because it applies to more than just pr
 
 ## About the workshop
 
-::: columns
-::: {.column width="50%"}
+Before the coffee break:
+
 * Intro & Setting Expectations
 * Public Speaking
-* Storytelling crash course
+* Storytelling basics
 * Visualization Quick Wins
 * Q&A
-:::
-::: {.column width="50%"}
+
+---
+
+## About the workshop
+
+After the coffee break:
+
 * More visualization Quick Wins!
 * A Practical Storytelling Framework
 * Practical Storytelling tools 1
 * Practical Storytelling tools 2
 * Q&A
-:::
-:::
 
 ---
 
@@ -276,10 +281,4 @@ What went wrong?
 
 - You already have a taste for good presentations. 
 - We will develop a framework to guide how to craft better presentations.
-- Trust your instincts - work to develop them! 
-
----
-
-## Next:
-
-Part 1 - Block 2: Public Speaking
+- Trust your instincts but work to develop them!
