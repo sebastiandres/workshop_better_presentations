@@ -65,7 +65,7 @@ Data ideas for plots:
 
 ## { .custom-title }
 ::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
-[Part 1 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
+[Part 1 - Block 4]{style="font-size: 20px; margin: 0px;"} <br>
 [Visualization Quick Wins]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
 :::
 
@@ -118,11 +118,11 @@ Never use exploratory visualizations on a presentation!
 ## Simple ideas with high impact
 
 * Use simpler plots
-* Mis-en-place
-* The forbidden moves
 * Develop a progression
+* Apply a mis-en-place
 * Annotate your plots
-* Use "better" colors
+* Use better colors
+* Never use the forbidden moves
 
 ---
 

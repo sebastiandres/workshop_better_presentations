@@ -87,14 +87,17 @@ REGULAR TIPS:
 - Share
 - Network
 - Learn
-- Defeat procastination
 - Stand out
+
+:::{.fragment}
+and the most important to me, to defeat procastination!
+:::
 
 ---
 
 #### Some notes on public speaking
 
-::: {.callout-tip title="Secret #0" .fragment}
+::: {.callout-note title="Secret #0" .fragment}
 Having fears/doubts is sign of a healthy brain
 :::
 
@@ -106,14 +109,14 @@ Having fears/doubts is sign of a healthy brain
 ---
 
 You never stop having fears, but you learn to control/ignore them.  
-Same as you do with riding a rollercoaster.
 
+Same as you do with riding a rollercoaster.
 
 ---
 
 #### Some notes on public speaking
 
-::: {.callout-tip title="Secret #2" .fragment}
+::: {.callout-tip title="Secret #1" .fragment}
 People's reactions are easy to predict.
 :::
 
@@ -121,9 +124,17 @@ People's reactions are easy to predict.
 
 #### Some notes on public speaking
 
-::: {.callout-tip title="Secret #3" .fragment}
+::: {.callout-caution title="Secret #2" .fragment}
 In case of emergency, your reaction will be mirrored by the audience.
 :::
+
+---
+
+![](images/P1B2/snakes/presentations_arent_so_bad_1.jpeg){fig-align="center" width="30%"}
+![](images/P1B2/snakes/presentations_arent_so_bad_2.jpeg){fig-align="center" width="30%"}
+
+*I hope you laught with this joke.   
+If not, I'll just continue with the rest of the talk pretending nothing happened.*
 
 ---
 
@@ -136,7 +147,7 @@ Exercise:
 
 #### Some notes on public speaking
 
-::: {.callout-error title="Secret #4" .fragment}
+::: {.callout-warning title="Secret #3" .fragment}
 As a speaker you **command** the room!  
 Make use of this new power!
 :::
@@ -146,7 +157,7 @@ Make use of this new power!
 
 #### Some notes on public speaking
 
-::: {.callout-tip title="Secret #5" .fragment}
+::: {.callout-important title="Secret #4" .fragment}
 Most people have empathy and want you to succeed.
 :::
 
@@ -154,11 +165,11 @@ Most people have empathy and want you to succeed.
 
 #### Some notes on public speaking
 
-::: {.callout-tip title="Secret #6" .fragment}
+::: {.callout-note title="Secret #5" .fragment}
 Humor is great tool to sync a room.
 :::
 
-::: {.callout-warning title="Secret #6 B" .fragment}
+::: {.callout-tip title="Secret #5 B" .fragment}
 Humor works better when is not expected.
 :::
 
@@ -166,7 +177,7 @@ Humor works better when is not expected.
 
 #### Some notes on public speaking
 
-::: {.callout-warning title="Secret #7" .fragment}
+::: {.callout-warning title="Secret #6" .fragment}
 We are only as good as our communication skills. 
 :::
 
@@ -178,7 +189,7 @@ Communication skills end up being the "great filter".
 
 #### Some notes on public speaking
 
-::: {.callout-tip title="Secret #8" .fragment}
+::: {.callout-important title="Secret #7" .fragment}
 Formula to be memorable: simplicity meets excentricity.  
 
 Use as little colors and text as possible, but make it unique.
@@ -194,20 +205,21 @@ What's more memorable: left or right?
 
 ---
 
-#### Some notes on public speaking
+## Side note: Own your weird
 
-::: {.callout-error title="Secret #9" .fragment}
-Never have more slides than the number of minutes you have to speak.
-:::
+Book Rec #1: **Own your weird**, by Jason Zook.
+
+Don't be like everybody else: leave a mark.  
+Use your preferred colors.  
+Put as many dinosaurs on the background as you want.
 
 ---
 
-## Side note: Own your weird
+#### Some notes on public speaking
 
-Book Rec #1: Own your weird, by Jason Zook.
-
-Don't be like everybody else: leave a mark.  
-Use your preferred colors. Put as many dinosaurs on the background as you want.
+::: {.callout-caution title="Secret #8" .fragment}
+Never have more slides than the number of minutes you have to speak.
+:::
 
 ---
 
@@ -219,7 +231,7 @@ Use your preferred colors. Put as many dinosaurs on the background as you want.
 
 ##### Presentation is communication: The message
 
-Message should be tailored from [**a specific speaker**]{.fragment} to [**the specific audience**.]{.fragment}
+Message should be tailored from [**a specific speaker**]{.fragment} [to **the specific audience**.]{.fragment}
 
 [Data Storytelling helps selecting the best **content** and **format** to make the message clear and engaging.]{.fragment}
 
@@ -272,3 +284,20 @@ There's more than just content: Non-verbal communication
 {{< video https://www.youtube.com/embed/8S0FDjFBj8o >}}
 
 How to sound smart in your TEDx Talk | Will Stephen | TEDxNewYork
+
+---
+
+##### Confession
+
+Non-verbal communication is my weak point.  
+
+When I ask for feedback, I get the following:
+
+- You should vary the pace
+- You should vary the volume
+
+I'm working on it!
+
+---
+
+
