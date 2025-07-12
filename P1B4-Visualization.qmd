@@ -50,9 +50,6 @@ Data ideas for plots:
 
 :::
 
-
-
-
 ---
 
 ## { .custom-title }
@@ -71,10 +68,21 @@ Data ideas for plots:
 
 ---
 
-## Quick wins
-Let's see some quick wins and code before the Q&A and coffee break.
+## Why visualizations?
+
+Because of Anscombe's quartet and the datasaurus.
 
 ---
+
+[IMAGE OF Anscombe's quartet and the datasaurus.]
+
+---
+
+## Quick wins
+Let's see some quick wins and code before the coffee break.
+
+---
+
 ## Visualization is never "agnostic/pain/neutral"
 
 ---
@@ -83,11 +91,19 @@ Let's see some quick wins and code before the Q&A and coffee break.
 
 Be fair. Be truthful. But beware you're not neutral, you are showing part of the data in a given way.
 
+[IMAGE OF THE STORY WITHIN THE DATA]
+
+---
+
+What story could we select from this data?
+
+[IMAGE OF THE MAIN DATA STORY]
+
 ---
 
 ## Exploratory Viz != Explanatory Viz
 
-Craft what YOU want your audience to see.
+Craft what **YOU** want your audience to see.
 
 Avoid exploratory graphs on your presentation.
 
@@ -111,28 +127,42 @@ Avoid exploratory graphs on your presentation.
 
 ---
 
-Never use exploratory visualizations on a presentation!
+Remember: Never use exploratory visualizations on a presentation!
+
+---
+
+### Simplicity is the ultimate sophistication.  
+
+::: {style="text-align: right;"}
+[*Leonardo da Vinci*]{.fragment}
+:::
+
+---
+
+My references:  
+
+- **Storytelling with data** (book), by Cole Nussbaumer Knaflic
+- **Matplotlib Journey** (online course), by Yan Holtz and Joseph Barbier
 
 ---
 
 ## Simple ideas with high impact
 
-* Use simpler plots
-* Develop a progression
-* Apply a mis-en-place
-* Annotate your plots
-* Use better colors
-* Never use the forbidden moves
+:::{.incremental}
+1. Use simpler plots
+2. Apply a mis-en-place
+3. Annotate your plots
+4. Use better colors
+5. Develop a progression
+:::
 
 ---
 
-## Use simpler plots
+## 1. Use simpler plots
 
-Avoid using complex / custom plots. You can most likely use the following 8 plots:
+Avoid using complex/custom plots.  
 
-[Make your bets]
-
-[KISS]
+You can use just 8 types of plots.
 
 ---
 
@@ -140,102 +170,16 @@ Avoid using complex / custom plots. You can most likely use the following 8 plot
 
 ---
 
-## Mis-en-place
-
-* Label in context
-* Sort if categories
+## 2. Apply a mis-en-place
 
 ---
 
-## Example #1
-
-[BEFORE]
+## 3. Annotate your plots
 
 ---
 
-## Example #1
-
-[AFTER]
-
---- 
-
-## Code comparison
+## 4. Use better colors
 
 ---
 
-## Use "better" colors
-
-* Inspire yourself with: conference website & socials.
-* Use a color from a theme
-* Look online for inspiration
-
----
-
-## Example #3
-
-[BEFORE DEFAULT]
-
----
-
-## Example #3
-
-[AFTER CUSTOM]
-
----
-
-## Code comparison
-
----
-
-## Develop a progression
-
-Your 2 best friends:
-
-* zlevel & opacity
-* `plt.savefig`
-
----
-
-## Example #1
-
-[BEFORE]
-
----
-
-## Example #1
-
-[AFTER]
-
----
-
-Code comparison
-
----
-
-## Annotate your plots
-
-Your 2 best friends.
-
-* `plt.text`
-* `pytext`: Library to write texts with multiple fonts & colors
-* `pyannotate`: Library to draw arrows
-
----
-
-## Example #2
-
-[BEFORE]
-
----
-
-## Example #2 
-
-[AFTER]
-
----
-
-Code comparison
-
----
-
-
+## 5. Develop a progression

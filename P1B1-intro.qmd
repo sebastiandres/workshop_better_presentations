@@ -4,7 +4,7 @@ execute:
 format:
   revealjs:
     width: 1245
-    height: 900
+    height: 700
     menu: false
     controls: true
     transition: fade
@@ -26,40 +26,9 @@ format:
 ::: {.notes}
 Change from (800, 600) for 4x3 or (1245, 700) for 16x9
 Key points:
-- Workshop not talks
-- Workshop structure
-- Data Storytelling: how we will approach the workshop
-- About me
-- Workshop materials
 - Activity 1: The judging hat
 - Next:
   - Part 1 - Block 2: Public Speaking
-
-TODO:
-- Select the content for the BAD presentation.
-- Create the slides for the BAD presentation.
-- Pass to 2 columns (why we make presentations, what types of presentations)
-- Create 3 columns for the workshop structure
-- Add numbers to the workshop figure
-- Improve the graph of "my story in 4 graphics"
-- MAY BE USE THE shape of Chile in some graph...
-- Name your favorite story (book-movie-game)
-- Why do we spend so much time & money to consume stories? brains are adicted to it, just like chocolate cake! It just tickles the right nerves.
-- Stories are sticky. Stories move us. Stories are easy to remember (more than facts, more than numbers, more than rules) -> Pnemotecnics tricks are memorization rules that are based on stories (images).
-- We like to be entertained, we like to laugh, to be moved. We like some change (grow).
-
-
-Programación en Python:
-Habilidad común y transferible a varias industrias.
-En transformación por avances de Inteligencia Artificial.
-
-Data Storytelling:
-Habilidad  poco usual y transferible a varias industrias.
-Indiferente a avances de Inteligencia Artificial.
-
-Python + Data Storytelling = Combo Ganador
-
-Data Storytelling work because stories, language, is the natural medium for humans.
 :::
 
 ---
@@ -186,8 +155,9 @@ After the coffee break:
 
 * More visualization Quick Wins!
 * A Practical Storytelling Framework
-* Practical Storytelling tools 1
-* Practical Storytelling tools 2
+* Quarto & Pyodide
+* Jupyter Notebook & RISE
+* A bad presentation revisited
 * Q&A
 
 ---
@@ -242,7 +212,8 @@ After the coffee break:
 
 ## About the workshop materials
 
-- All materials are available on my [GitHub](https://github.com/sebastiandres/workshop-better-presentations): https://github.com/sebastiandres/workshop-better-presentations
+- The slides are available on my [GitHub](https://github.com/sebastiandres/workshop-better-presentations): https://github.com/sebastiandres/workshop-better-presentations
+- The activities are available on my [GitHub](https://github.com/sebastiandres/europython_workshop_activities): https://github.com/sebastiandres/europython_workshop_activities
 - Take notes, ask questions, and participate actively.
 
 ---

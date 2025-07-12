@@ -183,7 +183,8 @@ We are only as good as our communication skills.
 
 ---
 
-Communication skills end up being the "great filter".
+You are perceived as the multiplication of "how good you are" by "how good you communicate".  
+Communication skills end up being the "great filter" for engineers, scientists, and programmers.
 
 ---
 
@@ -220,6 +221,22 @@ Put as many dinosaurs on the background as you want.
 ::: {.callout-caution title="Secret #8" .fragment}
 Never have more slides than the number of minutes you have to speak.
 :::
+
+---
+
+#### Some notes on public speaking
+
+::: {.callout-important title="Secret #9" .fragment}
+Know yourself!  
+What happens to you before/during/after the talk?
+:::
+
+---
+
+**Quick Q&A** 
+
+What do you think?  
+Is there any advice you would like to share & add to the list?
 
 ---
 
@@ -281,7 +298,7 @@ Bad news (for the presenter):
 
 There's more than just content: Non-verbal communication
 
-{{< video https://www.youtube.com/embed/8S0FDjFBj8o >}}
+{{< video https://www.youtube.com/embed/8S0FDjFBj8o width="70%" height="70%" >}}
 
 How to sound smart in your TEDx Talk | Will Stephen | TEDxNewYork
 

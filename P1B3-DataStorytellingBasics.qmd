@@ -104,6 +104,8 @@ Always raise the stakes!
 Stories are 
 
 the first human technology
+
+It's part of how our brains are wired!
 :::
 :::
 
@@ -114,15 +116,15 @@ What's the main plot of:
 - Cinderella, The beauty and the beast, Lillo & Stich, ...
 - Jurassic Park, Star Wars, Back to the future, ...
 
-[**Stories are easy to remember**]{.fragment}
+[**Stories are easy to remember.**]{.fragment}
 
-[A presentation **with stories** will be easier to remember]{.fragment}
+[A presentation **with stories** will be easier to remember.]{.fragment}
 
 ---
 
 ## The hackable brain
 
-The main point of Data Storytelling is that brains are [**very predictable**]{.fragment}.
+The main point of Data Storytelling is that brains have some [**very predictable patterns**]{.fragment}.
 
 [Storytellers know and exploit this.]{.fragment}
 
@@ -214,7 +216,7 @@ Emotions create actions
 
 [Never give away the ending!]{.fragment}
 
-[This is called "Narrative debt"]{.fragment}
+[This is called **"creating a narrative debt"**]{.fragment}
 
 ---
 
@@ -224,14 +226,13 @@ Examples of narrative debt:
 
 ---
 
-## Principle #2
+## Principle #2 {.incremental}
 
 [Details are important, but not all details are important.]{.fragment}
 
-[Simple is always better.]{.fragment}
+[Keep only the essential.]{.fragment}
 
-[Don't try to look smart by using fancy words and too many details.  
-Smart people are those who can explain complex ideas in simple ways, not who knows more jargon]{.fragment}
+[This is called **"The Chekhov's Gun"**]{.fragment}
 
 ---
 
@@ -243,17 +244,26 @@ This manifests in two ways:
 
 ---
 
-## Principle #3
+[Don't try to look smart by using fancy words.]{.fragment}  
 
-Breadcrumbs / IKEA effect
+[Smart people are those who can explain complex ideas in simple ways, not who knows more jargon.]{.fragment}
 
-Make people work for their meal, but never too much. 
 
 ---
 
-IKEA effect: we love more things we have put effort into.
+## Principle #3
 
-Breadcrumbs: people don't like to be spoonfed nor ignored. Something in the middle.
+[People like better when they participate on the process.]{.fragment}
+
+[Make people work for their meal (but never too much).]{.fragment}
+
+[This is called **"The IKEA effect"**.]{.fragment}
+
+---
+
+Leave enough breadcrumbs for people to follow and anticipate the story/solution, without revealing the ending. 
+
+People don't like to be spoonfed nor ignored.
 
 ---
 
@@ -277,7 +287,6 @@ Your first draft is always going to be terrible.
 ![](images/ai/choice.jpeg){fig-align="center"}
 :::
 :::
-
 
 ---
 
@@ -313,8 +322,9 @@ Brandon Sanderson's storytelling framework:
 * **Progress**: [Is the story advancing towards the promise?]{.fragment .fragment-index-2}
 * **Payoff**: [Did you fulfill or break the promise?]{.fragment .fragment-index-3}
 
-Payoff != Ending.
-Payoff is how satisfactory is the ending of the story.
+[Payoff != Ending.]{.fragment}  
+
+[Payoff is how satisfactory is the ending of the story. Was the effort worth it?]{.fragment}
 
 ---
 
@@ -348,6 +358,18 @@ Payoff is how satisfactory is the ending of the story.
 
 ---
 
+## Example: 
+
+Let's apply it to any story or presentation!
+
+* **Promise**: 
+* **Progress**: 
+* **Payoff**:
+
+Some ideas: The Lord of the Rings, The Name of the Wind, Ring World, ...
+
+---
+
 ## How does this applies to data and slides?
 
 ---
@@ -370,6 +392,15 @@ Same data, two plots:
 Don't share numbers. Share a story.
 
 [(C) Storytelling with Data, por Cole Nussbaumer Knaflic.]{style="font-size: 0.75em; color: gray"}
+
+---
+
+## Recommended reading - The short list
+
+* Storyworthy, Matthew Dicks
+* Storytelling with Data, Cole Nussbaumer Knaflic
+* How charts lie, Alberto Cairo
+* The Visual Display of Quantitative Information, Edward Tufte
 
 ---
 

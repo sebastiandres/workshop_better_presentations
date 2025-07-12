@@ -1,0 +1,119 @@
+---
+execute:
+  echo: true
+format:
+  revealjs:
+    width: 1245
+    height: 700
+    controls: true
+    menu: true
+    slide-number: true
+    transition: fade
+    auto-stretch: false
+    embed-resources: true
+    toc: false
+    center: true
+    preview-links: false
+    theme:
+        - simple
+        - style/style_background.scss
+---
+
+## { .custom-title }
+
+&#32; 
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 500px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Python and Data Storytelling <br> to create and deliver better presentations]{style="font-size: 40px; font-weight: bold; margin: 0px"} <br>
+[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
+:::
+
+---
+
+## { .custom-title }
+::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
+[Part 2 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
+[Data Storytelling Tools]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
+:::
+
+---
+
+## Important!
+
+Now you know principles and rules for Effective Storytelling.  
+
+Choose the most suitable weapon for your objective!
+
+---
+
+## Presentation tools
+
+* Classic: PowerPoint
+* **"Show don't tell"** tools: 
+  * quarto (+ pyodide)
+  * jupyter + RISE
+  * streamlit
+* Mixed bag: canvas, revealjs, prezi
+
+---
+
+
+## Personal opinion
+::: { .incremental }
+
+* **PowerPoint**: Discardable presentation or mandatory format.
+* **Quarto**: Conference talks. Might need to execute code.
+* **Jupyter + RISE**: Workshops. Code to execute must be easy to modify.
+* **html+webapps**: Experimental presentations.
+:::
+
+---
+
+## Advice from experience
+
+- Don't expect "pixel precision" on text and figure positions. 
+- Tradeoff between simplicity and control
+- Knowing a bit of html goes a long way
+
+---
+
+## Quarto
+
+---
+
+::: columns
+::: {.column width="60%"}
+&#32;<br><br>
+[quarto]{style="font-size: 1em; color: gray"}
+
+An open-source scientific and technical publishing system from POSIT.
+
+Focus on scientific markdown, dynamic & interactive documents based on code (Python/R/Julia).
+:::
+::: {.column width="40%"}
+![https://quarto.org/](images/P2B3/quarto.png)
+:::
+:::
+
+---
+
+## Jupyter + RISE
+
+---
+
+::: columns
+::: {.column width="40%"}
+&#32;<br><br>
+[jupyter notebook]{style="font-size: 1em; color: gray"}
+
+The executable notebook we all love and hate.
+
+The RISE extension allows you to render the notebook as a presentation.
+:::
+::: {.column width="60%"}
+![https://rise.readthedocs.io/](images/P2B3/rise.png)
+:::
+:::
