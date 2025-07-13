@@ -73,24 +73,27 @@ REGULAR TIPS:
 
 ---
 
-## Public speaking is very different from regular speaking
+## Public speaking 
+### is very different from regular speaking
 
+::: {.incremental}
 - Unidirectional
-- Hierarchical
 - One versus all
+- Hierarchical
 - Time debt
+:::
 
 ---
 
 ## Is it worth it?
 
-- Share
-- Network
-- Learn
+- Share your work/knowledge
+- Network with peers
+- Learn new things
 - Stand out
 
 :::{.fragment}
-and the most important to me, to defeat procastination!
+and the most important to me, to **defeat procastination**!
 :::
 
 ---
@@ -326,5 +329,6 @@ I'm working on it!
 
 #### Last one:
 
-## Be honest and vulnerable, but never undermine yourself or your work!
+### Be honest and vulnerable
+### but never undermine yourself or your work!
 

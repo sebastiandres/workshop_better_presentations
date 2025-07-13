@@ -135,12 +135,12 @@ The main point of Data Storytelling is that brains have some [**very predictable
 ::: {.column width="45%"}
 Peak-End Rule
 ![](images/P1B2/sketplanation.png){fig-align="center"}
-Image by sketplanation
+[Image by sketplanation]{style="font-size: 0.5em; color: gray"}
 :::
 ::: {.column width="55%" .fragment}
 ![](images/P1B2/got.jpg){fig-align="center"}
 
-[Game of Thrones rating, by Kelvin Neo]{.fragment}
+[Game of Thrones rating, by Kelvin Neo]{style="font-size: 0.5em; color: gray" .fragment}
 :::
 :::
 
@@ -222,21 +222,26 @@ Emotions create actions
 
 ## Hansel and Gretel {.incremental}
 
-[FONT SIZE]
-
+::: columns
+::: {.column width="70%" style="font-size:0.60em;"}
 - **Main Problem**: Food scarsity at home
-  - **Problem 1**: Father wants to leave H&G at forest
-    - Solution: Use breadcrumbs to mark the road
-    - Problem: Birds eat breadcrumbs and they get lost
-  - **Problem 2**: H&G get lost.
-    - Solution: Arrive to a house
-    - Problem: They get captured by witch
-  - **Problem 3**: Witch wants to eat them
-    - Solution: Use chicken finget to trick the witch.
-    - Problem: She is suspicious
+  - **Problem 1**: Father wants to abandon H&G at forest
+    - *Solution*: Use breadcrumbs to mark the road
+    - *Problem*: Birds eat breadcrumbs and they get lost
+  - **Problem 2**: H&G get lost and hungry
+    - *Solution*: Find a sugar house. Eat it!
+    - *Problem*: They get captured by house owner: a witch!
+  - **Problem 3**: Witch has cannibalistic intentions
+    - *Solution*: Use chicken finger to trick the witch
+    - *Problem*: She is suspicious
   - **Problem 4**: She wants to put them in the oven
-    - Solution: Push Witch in oven.
-- **Solution**: Return with witchs gold.
+    - *Solution*: Push witch in oven.
+- **Solution**: Return home with witch's treasure.
+:::
+::: {.column width="25%"}
+![](images/P1B3/hansel_gretel.jpg){fig-align="center" width="100%"}
+:::
+:::
 
 ---
 
@@ -259,9 +264,9 @@ This manifests in:
 
 ---
 
-[Don't try to look smart by using fancy words.]{.fragment}  
+[Don't try to look smart by using **fancy words**.]{.fragment}  
 
-[Smart people are those who can explain complex ideas in simple ways, not who knows more jargon.]{.fragment}
+[Smart people are those who can explain complex ideas in simple ways, not who knows more **jargon**.]{.fragment}
 
 
 ---
@@ -278,7 +283,7 @@ This manifests in:
 
 ::: columns
 ::: {.column width="60%"}
-<br><br>
+<br>
 People don't like to be spoonfed nor ignored.  
 
 Leave enough breadcrumbs for people to follow and anticipate the story/solution, without revealing the ending.
@@ -424,7 +429,8 @@ Let's apply it to any story or presentation!
 * **Progress**: 
 * **Payoff**:
 
-Some ideas: The Lord of the Rings, The Name of the Wind, Ring World, ...
+*Some ideas:  
+The Lord of the Rings, The Name of the Wind, Ring World, ...*
 
 ---
 

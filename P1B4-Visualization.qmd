@@ -61,18 +61,22 @@ format:
 
 ---
 
-## Why visualizations?
+### Why visualizations?
 
-Because of Anscombe's quartet and the datasaurus.
+[Because of Anscombe's quartet and the datasaurus.]{.fragment}
 
 ---
 
+### Why visualizations?
+
 ::: columns
-::: {.column width="33%" .fragment}
-![Anscombe's quartet](images/P1B4/anscombe.png){fig-align="center"}
+::: {.column width="34%" .fragment}
+Anscombe's quartet
+![](images/P1B4/anscombe.png){fig-align="center"}
 :::
-::: {.column width="66%" .fragment}
-![Datasaurus Dozen](images/P1B4/datasaurus.gif){fig-align="center"}
+::: {.column width="65%" .fragment}
+Datasaurus Dozen
+![](images/P1B4/datasaurus.gif){fig-align="center"}
 :::
 :::
 
@@ -85,8 +89,15 @@ Let's see some quick wins and code before the coffee break.
 
 ## Visualization is never "agnostic/neutral"
 
+::: columns
+::: {.column width="30%"}
+<br><br><br><br>
 There is always more than one story within the data:
-![](images/P1B4/story_within_data.png){fig-align="center" height="500px"}
+:::
+::: {.column width="65%"}
+![](images/P1B4/story_within_data.png){fig-align="center" height="600px"}
+:::
+:::
 
 ---
 
@@ -162,27 +173,22 @@ Most of the time, you can use just 8 types of plots.
 
 ---
 
+[Top 8 plots according to Cole Nussbaumer Knaflic's Storytelling with Data:]{style="font-size: 0.8em; color: gray; align: center;"}
 
-[CENTER]
-
-![](images/P1B4/common_plots.png){style="width: 70%"}
-
----
-
-[CHANGE FONT SIZE]
+![](images/P1B4/common_plots.png){fig-align="center" style="width: 70%"}
 
 ::: columns
-::: {.column width="50%" .incremental}
-* Number: `directly on your slideware`
+::: {.column style="font-size: 0.6em; width: 50%;" .incremental}
+* Number: *directly on your slideware*
 * Scatterplot: `plt.scatter`
 * Vertical bar: `plt.bar`
 * Horizontal bar: `plt.barh`
 :::
-::: {.column width="50%" .incremental}
-* Table: `directly on your slideware`
+::: {.column style="font-size: 0.6em; width: 50%;" .incremental}
+* Table: *directly on your slideware*
 * Line: `plt.plot` 
-* Stacked Vertical bar: `plt.bar` (?)
-* Stacked Horizontal bar: `plt.barh` (?)
+* Stacked Vertical bar: *Iterate over* `plt.bar`
+* Stacked Horizontal bar: *Iterate over* `plt.barh`
 :::
 :::
 

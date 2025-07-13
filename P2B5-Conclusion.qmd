@@ -20,24 +20,24 @@ format:
 ---
 
 ## Understanding Czechia Energy Production Sources
-### Sebastián Flores
-### EuroPython 2025
+##### Sebastián Flores, EuroPython 2025
 
 ---
 
 **Questions to be answered:**
 
 - How is energy produced on Czechia?
-- Has the total production or sources changed over time?
+- Have the energy sources changed over time?
 
 ---
 
 ##  77,245  GWh
 Total Energy Production on 2023
 
-<br><br>
+<br>
 
-[This is the amount of energy that would be needed if the total population each used 900 Watts all day all year long.]{.fragment}
+[Equivalent to the energy needed by the total population using 810 Watts all day all year long.]{.fragment style="color: grey; font-size: 0.5em;"}  
+[Roughly 57% of the equivalent US per-capita energy production.]{.fragment style="color: grey; font-size: 0.5em;"}
 
 ---
 

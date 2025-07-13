@@ -84,26 +84,37 @@ I prefer to say "Practical Storytelling" because it applies to more than just pr
 
 ## Why do we make presentations?
 
+::: columns
+::: {.column width="50%" .fragment}
 - Work: 
   - To inform
   - To take action
   - To take decisions
+:::
+::: {.column width="50%" .fragment}
 - Personal:
   - To share knowledge
   - To get feedback
   - To expand our network
+:::
+:::
 
 ---
 
 ## What types of talks do you give?
 
+::: columns
+::: {.column width="20%"}
+:::
+::: {.column width="70%" .fragment}
 - Small talk
 - Ted talk
 - Work presentation
 - Conference talk
 - Tutorial
 - Workshop
-
+:::
+:::
 
 ---
 
@@ -139,26 +150,39 @@ I prefer to say "Practical Storytelling" because it applies to more than just pr
 
 ## About the workshop
 
-Before the coffee break:
+**Before** the coffee break:
 
+::: columns
+::: {.column width="20%"}
+:::
+::: {.column width="70%"}
 * Intro & Setting Expectations
 * Public Speaking
 * Storytelling basics
 * Visualization Quick Wins
 * Q&A
+:::
+:::
 
 ---
 
 ## About the workshop
 
-After the coffee break:
+**After** the coffee break:
 
+::: columns
+::: {.column width="20%"}
+:::
+::: {.column width="70%"}
 * More visualization Quick Wins!
 * A Practical Storytelling Framework
 * Quarto & Pyodide
 * Jupyter Notebook & RISE
 * A bad presentation revisited
 * Q&A
+:::
+:::
+
 
 ---
 
@@ -178,7 +202,6 @@ After the coffee break:
 :::
 
 ---
-
 
 ## My story in 4 graphics
 
