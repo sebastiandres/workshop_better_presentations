@@ -206,7 +206,7 @@ After the coffee break:
 
 ## My story in 4 graphics
 
-![](code/4_Trabajo.png){fig-align="center"}
+![](code/4_Work.png){fig-align="center"}
 
 ---
 

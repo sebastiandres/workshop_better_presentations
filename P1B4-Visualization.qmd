@@ -41,13 +41,6 @@ format:
 - Activity 3: What is the best plot for this story?
 
 - Help yourself: allow to make drop in replacements in data. You'll reuse your code more.
-
-Data ideas for plots:
-- Solar generation by Chile
-- Copper production
-- Copper price
-- Data saurio y python logo but with stats
-
 :::
 
 ---
@@ -74,7 +67,14 @@ Because of Anscombe's quartet and the datasaurus.
 
 ---
 
-[IMAGE OF Anscombe's quartet and the datasaurus.]
+::: columns
+::: {.column width="33%" .fragment}
+![Anscombe's quartet](images/P1B4/anscombe.png){fig-align="center"}
+:::
+::: {.column width="66%" .fragment}
+![Datasaurus Dozen](images/P1B4/datasaurus.gif){fig-align="center"}
+:::
+:::
 
 ---
 
@@ -83,21 +83,17 @@ Let's see some quick wins and code before the coffee break.
 
 ---
 
-## Visualization is never "agnostic/pain/neutral"
+## Visualization is never "agnostic/neutral"
+
+There is always more than one story within the data:
+![](images/P1B4/story_within_data.png){fig-align="center" height="500px"}
 
 ---
 
 ## Select the story within your data
 
-Be fair. Be truthful. But beware you're not neutral, you are showing part of the data in a given way.
-
-[IMAGE OF THE STORY WITHIN THE DATA]
-
----
-
-What story could we select from this data?
-
-[IMAGE OF THE MAIN DATA STORY]
+Be fair and truthful.  
+Be aware you're not neutral, and that you are showing part of the data in a given way.
 
 ---
 
@@ -149,37 +145,91 @@ My references:
 ## Simple ideas with high impact
 
 :::{.incremental}
-1. Use simpler plots
-2. Apply a mis-en-place
-3. Annotate your plots
-4. Use better colors
-5. Develop a progression
+0. Use simpler plots
+1. Apply a mis-en-place
+2. Annotate your plots
+3. Use better colors
+4. Develop a progression
 :::
 
 ---
 
-## 1. Use simpler plots
+## 0. Use simpler plots
 
 Avoid using complex/custom plots.  
 
-You can use just 8 types of plots.
+Most of the time, you can use just 8 types of plots.
 
 ---
 
-![](images/P1B4/common_plots.png){style="width: 100%;"}
+
+[CENTER]
+
+![](images/P1B4/common_plots.png){style="width: 70%"}
 
 ---
 
-## 2. Apply a mis-en-place
+[CHANGE FONT SIZE]
+
+::: columns
+::: {.column width="50%" .incremental}
+* Number: `directly on your slideware`
+* Scatterplot: `plt.scatter`
+* Vertical bar: `plt.bar`
+* Horizontal bar: `plt.barh`
+:::
+::: {.column width="50%" .incremental}
+* Table: `directly on your slideware`
+* Line: `plt.plot` 
+* Stacked Vertical bar: `plt.bar` (?)
+* Stacked Horizontal bar: `plt.barh` (?)
+:::
+:::
+
+---
+
+## 1. Mis-en-place
+### Prepare your data before plotting
+
+- Create a clean dataset 
+- If necesary: cast, aggroupate and simplify the data before plotting.
+
+--- 
+
+## 2. Mixed bag of tricks
+
+* Remove any unnecesary bounding box or line (spine of ax)
+* Plot clean axes
+* Avoid any rotated text
+* Learn the difference between fig and ax
+* Prefer to use `ax.text` and `fig.text` over `title`, `subtitle`, `suptitle`, `xlabel`, `ylabel`, etc.
 
 ---
 
 ## 3. Annotate your plots
 
+- Remove the "legend" (if possible): annotate contextually.
+- Use "highligth_text" to mix font sizes, weigths and colors.
+
 ---
 
 ## 4. Use better colors
 
+- Don't use regular colors: use a palette
+- Options:
+  - Matplotlib's palette: 13 options
+  - Pypalette: +2600 curated palettes
+- "Inspire" yourself from great examples
+
 ---
 
 ## 5. Develop a progression
+
+- Don't reveal the final plot inmediately
+- Use a progression to train the audience into how to read
+- Revel the plot step by step and explain each step
+- Keep the control of the attention at all steps
+
+---
+
+## Let's code!

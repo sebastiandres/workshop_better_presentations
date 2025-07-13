@@ -27,7 +27,10 @@ r23:
 
 r24:
 	jupyter notebook
-	
+
+r25:
+	quarto render P2B5*.qmd
+
 v11:
 	open P1B1*.html
 
@@ -49,6 +52,12 @@ v22:
 v23:
 	open P2B3*.html
 
+v24:
+	open P2B4*.html
+
+v25:
+	open P2B5*.html
+
 
 r11v: r11 v11
 
@@ -64,5 +73,9 @@ r22v: r22 v22
 
 r23v: r23 v23
 
-r24v: r24
+r24v: r24 v24
+
+r25v: r25 v25
+
+
 

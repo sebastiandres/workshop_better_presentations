@@ -103,8 +103,8 @@ Having fears/doubts is sign of a healthy brain
 
 ---
 
-![](images/P1B2/snakes/presentations_arent_so_bad_1.jpeg){fig-align="center" width="40%"}
-[![](images/P1B2/snakes/presentations_arent_so_bad_2.jpeg){fig-align="center" width="40%"}]{.fragment}
+![](images/P1B2/presentations_arent_so_bad_1.jpeg){fig-align="center" width="40%"}
+[![](images/P1B2/presentations_arent_so_bad_2.jpeg){fig-align="center" width="40%"}]{.fragment}
 
 ---
 
@@ -130,8 +130,8 @@ In case of emergency, your reaction will be mirrored by the audience.
 
 ---
 
-![](images/P1B2/snakes/presentations_arent_so_bad_1.jpeg){fig-align="center" width="30%"}
-![](images/P1B2/snakes/presentations_arent_so_bad_2.jpeg){fig-align="center" width="30%"}
+![](images/P1B2/presentations_arent_so_bad_1.jpeg){fig-align="center" width="30%"}
+![](images/P1B2/presentations_arent_so_bad_2.jpeg){fig-align="center" width="30%"}
 
 *I hope you laught with this joke.   
 If not, I'll just continue with the rest of the talk pretending nothing happened.*
@@ -202,7 +202,14 @@ Use as little colors and text as possible, but make it unique.
 
 What's more memorable: left or right?
 
-[OLD THINGS] vs [NEW BLAND THINGS]
+::: columns
+::: {.column width="50%"}
+![](images/P1B2/new_trashbin.jpg){fig-align="center"}
+:::
+::: {.column width="50%"}
+![](images/P1B2/old_trashbin.jpg){fig-align="center"}
+:::
+:::
 
 ---
 
@@ -298,7 +305,7 @@ Bad news (for the presenter):
 
 There's more than just content: Non-verbal communication
 
-{{< video https://www.youtube.com/embed/8S0FDjFBj8o width="70%" height="70%" >}}
+{{< video https://www.youtube.com/embed/8S0FDjFBj8o width="600px" height="400px" >}}
 
 How to sound smart in your TEDx Talk | Will Stephen | TEDxNewYork
 
@@ -317,4 +324,7 @@ I'm working on it!
 
 ---
 
+#### Last one:
+
+## Be honest and vulnerable, but never undermine yourself or your work!
 

@@ -17,6 +17,8 @@ format:
     theme:
         - simple
         - style/style_background.scss
+filters: 
+  - pyodide
 ---
 
 ## { .custom-title }
@@ -101,9 +103,7 @@ Always raise the stakes!
 :::
 ::: {.column width="50%" .fragment .center}
 &#32;<br><br><br><br>
-Stories are 
-
-the first human technology
+Stories are the first human technology
 
 It's part of how our brains are wired!
 :::
@@ -220,13 +220,27 @@ Emotions create actions
 
 ---
 
-Examples of narrative debt:
+## Hansel and Gretel {.incremental}
 
-...
+[FONT SIZE]
+
+- **Main Problem**: Food scarsity at home
+  - **Problem 1**: Father wants to leave H&G at forest
+    - Solution: Use breadcrumbs to mark the road
+    - Problem: Birds eat breadcrumbs and they get lost
+  - **Problem 2**: H&G get lost.
+    - Solution: Arrive to a house
+    - Problem: They get captured by witch
+  - **Problem 3**: Witch wants to eat them
+    - Solution: Use chicken finget to trick the witch.
+    - Problem: She is suspicious
+  - **Problem 4**: She wants to put them in the oven
+    - Solution: Push Witch in oven.
+- **Solution**: Return with witchs gold.
 
 ---
 
-## Principle #2 {.incremental}
+## Principle #2
 
 [Details are important, but not all details are important.]{.fragment}
 
@@ -236,11 +250,12 @@ Examples of narrative debt:
 
 ---
 
-This manifests in two ways:
+This manifests in:
 
 - Less text
+- Rounding numbers
 - Simpler graphs
-- Analogies and metaphors: break down complex ideas into simpler ones
+- Analogies and metaphors
 
 ---
 
@@ -261,9 +276,17 @@ This manifests in two ways:
 
 ---
 
-Leave enough breadcrumbs for people to follow and anticipate the story/solution, without revealing the ending. 
+::: columns
+::: {.column width="60%"}
+<br><br>
+People don't like to be spoonfed nor ignored.  
 
-People don't like to be spoonfed nor ignored.
+Leave enough breadcrumbs for people to follow and anticipate the story/solution, without revealing the ending.
+:::
+::: {.column width="35%"}
+![](images/P1B3/ikea_effect.png){fig-align="center"}
+:::
+:::
 
 ---
 
@@ -314,6 +337,40 @@ Your first draft is always going to be terrible.
 
 ---
 
+## [Show]{style="color: green"}, [don't tell]{style="color: red"} for engineers
+
+### Tell:
+
+```
+print(*objects, sep=' ', end='\n', file=None, flush=False)
+Print objects to the text stream file, separated by sep and followed by end. sep, end, file, and flush, if present, must be given as keyword arguments.
+
+All non-keyword arguments are converted to strings like str() does and written to the stream, separated by sep and followed by end. Both sep and end must be strings; they can also be None, which means to use the default values. If no objects are given, print() will just write end.
+
+The file argument must be an object with a write(string) method; if it is not present or None, sys.stdout will be used. Since printed arguments are converted to text strings, print() cannot be used with binary mode file objects. For these, use file.write(...) instead.
+
+Output buffering is usually determined by file. However, if flush is true, the stream is forcibly flushed.
+
+Changed in version 3.3: Added the flush keyword argument.
+```
+
+---
+
+## [Show]{style="color: green"}, [don't tell]{style="color: red"} for engineers
+
+### Show:
+Documentation:
+```python
+print(*objects, sep=' ', end='\n', file=None, flush=False)
+```
+
+Executable code:
+```{pyodide-python}
+print("Hello", "lovely", "people", sep="\n") # Try: "", " ", "🇨🇿", ...
+```
+
+---
+
 ## The framework
 
 Brandon Sanderson's storytelling framework:  
@@ -324,7 +381,8 @@ Brandon Sanderson's storytelling framework:
 
 [Payoff != Ending.]{.fragment}  
 
-[Payoff is how satisfactory is the ending of the story. Was the effort worth it?]{.fragment}
+[Payoff is how satisfactory is the ending of the story.  
+Was the effort worth it?]{.fragment}
 
 ---
 
@@ -406,8 +464,8 @@ Don't share numbers. Share a story.
 
 ## Recommended reading for **Storytelling**
 
-* Storyworthy, Matthew Dicks
-* Made to Stick, Chip Heath and Dan Heath
+* Storyworthy - Matthew Dicks
+* Made to Stick - Chip Heath and Dan Heath
 * Bird by Bird – Anne LaMott
 * The Science of Storytelling – Will Storr
 * A Swim in a Pond in the Rain – George Saunders
@@ -417,10 +475,10 @@ Don't share numbers. Share a story.
 
 ## Recommended reading for **Data Storytelling**
 
-* Storytelling with Data, Cole Nussbaumer Knaflic
-* The Visual Display of Quantitative Information, Edward Tufte
-* Beautiful Evidence, Edward Tufte
-* How charts lie, Alberto Cairo
-* The Truthful Art, Alberto Cairo
-* The Functional Art, Alberto Cairo
-* Matplotlib Journey (https://www.matplotlib-journey.com/), Yann Holtz and Joseph Barbier
+* Storytelling with Data - Cole Nussbaumer Knaflic
+* The Visual Display of Quantitative Information - Edward Tufte
+* Beautiful Evidence - Edward Tufte
+* How charts lie - Alberto Cairo
+* The Truthful Art - Alberto Cairo
+* The Functional Art - Alberto Cairo
+* Matplotlib Journey (https://www.matplotlib-journey.com/) - Yann Holtz and Joseph Barbier

@@ -19,33 +19,66 @@ format:
         - style/style_background.scss
 ---
 
-## { .custom-title }
+## Understanding Czechia Energy Production Sources
+### Sebastián Flores
+### EuroPython 2025
 
-&#32; 
+---
 
-::: {.notes}
-Key slides:
-- ...
-- BAD presentation remade.
+**Questions to be answered:**
 
+- How is energy produced on Czechia?
+- Has the total production or sources changed over time?
+
+---
+
+##  77,245  GWh
+Total Energy Production on 2023
+
+<br><br>
+
+[This is the amount of energy that would be needed if the total population each used 900 Watts all day all year long.]{.fragment}
+
+---
+
+![](images/P2B5/2023_data.png){fig-align="center"}
+
+--- 
+
+![](images/P2B5/02_gross_energy_production_solution_0.png){fig-align="center"}
+
+---
+
+![](images/P2B5/02_gross_energy_production_solution_1.png){fig-align="center"}
+
+---
+
+![](images/P2B5/02_gross_energy_production_solution_2.png){fig-align="center"}
+
+---
+
+![](images/P2B5/02_gross_energy_production_solution_3.png){fig-align="center"}
+
+---
+
+![](images/P2B5/02_gross_energy_production_solution_4.png){fig-align="center"}
+
+---
+
+![](images/P2B5/02_gross_energy_production_solution_5.png){fig-align="center"}
+
+---
+
+::: {.incremental} 
+*How is energy produced on Czechia?*  
+[Mainly through thermal and nuclear sources (>91%).]{.fragment}
+
+<br>
+
+*Has the total production or sources changed over time?*  
+[Thermal is decreasing, all other sources are steady.]{.fragment}
 :::
 
 ---
 
-## { .custom-title }
-::: {style="position: absolute; left: 500px; top: 500px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
-[Python and Data Storytelling <br> to create and deliver better presentations]{style="font-size: 40px; font-weight: bold; margin: 0px"} <br>
-[Sebastián Flores, EuroPyCon 2025]{style="font-size: 25px;"}
-:::
-
----
-
-## { .custom-title }
-::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
-[Part 2 - Block 5]{style="font-size: 20px; margin: 0px;"} <br>
-[Conclusion]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
-:::
-
----
-
-## Conclusion
+## Thank you
