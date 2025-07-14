@@ -58,7 +58,7 @@ ToDo:
 
 ## { .custom-title }
 ::: {style="position: absolute; left: 700px; top: 550px; width:2000px; background-color: #ffffff; padding: 10px; border-radius: 5px;"}
-[Part 2 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
+[Part 1 - Block 3]{style="font-size: 20px; margin: 0px;"} <br>
 [Data Storytelling Basics]{style="font-size: 30px; font-weight: bold; margin: 0px"} <br>
 :::
 

@@ -12,7 +12,7 @@ format:
     embed-resources: true
     toc: false
     center: true
-    slide-number: true
+    slide-number: false
     preview-links: false
     theme:
         - simple

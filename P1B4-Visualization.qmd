@@ -198,17 +198,17 @@ Most of the time, you can use just 8 types of plots.
 ### Prepare your data before plotting
 
 - Create a clean dataset 
-- If necesary: cast, aggroupate and simplify the data before plotting.
+- If necesary: cast, group and simplify the data before plotting.
 
 --- 
 
 ## 2. Mixed bag of tricks
 
-* Remove any unnecesary bounding box or line (spine of ax)
-* Plot clean axes
-* Avoid any rotated text
 * Learn the difference between fig and ax
 * Prefer to use `ax.text` and `fig.text` over `title`, `subtitle`, `suptitle`, `xlabel`, `ylabel`, etc.
+* Remove any unnecesary bounding box or line (spine of ax)
+* Simplify axes and ticks
+* Avoid vertical text
 
 ---
 
@@ -223,9 +223,25 @@ Most of the time, you can use just 8 types of plots.
 
 - Don't use regular colors: use a palette
 - Options:
-  - Matplotlib's palette: 13 options
-  - Pypalette: +2600 curated palettes
-- "Inspire" yourself from great examples
+  - [Matplotlib's palette](https://matplotlib.org/stable/gallery/color/color_sequences.html): 13 options
+  - [Pypalette](https://python-graph-gallery.com/color-palette-finder/): +2600 curated palettes
+- ["Inspire" yourself from great examples](https://imagecolorpicker.com/)
+
+---
+
+## 4. Colors: Matplotlib
+
+https://matplotlib.org/stable/gallery/color/color_sequences.html:
+
+![](images/P1B4/matplotlib_palettes.png){fig-align="center" style="height: 600px"}
+
+---
+
+## 4. Colors: Pypalette
+
+https://python-graph-gallery.com/color-palette-finder/:
+
+![](images/P1B4/pypalette.png){fig-align="center" style="width: 80%"}
 
 ---
 
